@@ -11,7 +11,7 @@
 
   
   EXEC('create view 
-    [student10].[testview_1aa2a4772ffb56c97de3e2dd8f18a029_3291]
+    [student10].[testview_1aa2a4772ffb56c97de3e2dd8f18a029_1692]
    as 
     
     
@@ -35,10 +35,10 @@ where id is null
       then 'true' else 'false' end as should_error
   from (
     select * from 
-    [student10].[testview_1aa2a4772ffb56c97de3e2dd8f18a029_3291]
+    [student10].[testview_1aa2a4772ffb56c97de3e2dd8f18a029_1692]
   
   ) dbt_internal_test;
 
   EXEC('drop view 
-    [student10].[testview_1aa2a4772ffb56c97de3e2dd8f18a029_3291]
+    [student10].[testview_1aa2a4772ffb56c97de3e2dd8f18a029_1692]
   ;')

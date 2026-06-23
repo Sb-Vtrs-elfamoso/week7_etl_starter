@@ -11,19 +11,19 @@
 
   
   EXEC('create view 
-    [student10].[testview_84c61aba5bb74533a28bfdfe083e4f12_16948]
+    [student10].[testview_8ab42ea4e1c681c2eb6fa711cc251fdd_2494]
    as 
     
     
     
 
 select
-    id as unique_field,
+    location_id as unique_field,
     count(*) as n_records
 
-from "de_etl_db"."student10"."dbt_setup_connection_test"
-where id is not null
-group by id
+from "de_etl_db"."student10"."stg_locations"
+where location_id is not null
+group by location_id
 having count(*) > 1
 
 
@@ -38,10 +38,10 @@ having count(*) > 1
       then 'true' else 'false' end as should_error
   from (
     select * from 
-    [student10].[testview_84c61aba5bb74533a28bfdfe083e4f12_16948]
+    [student10].[testview_8ab42ea4e1c681c2eb6fa711cc251fdd_2494]
   
   ) dbt_internal_test;
 
   EXEC('drop view 
-    [student10].[testview_84c61aba5bb74533a28bfdfe083e4f12_16948]
+    [student10].[testview_8ab42ea4e1c681c2eb6fa711cc251fdd_2494]
   ;')

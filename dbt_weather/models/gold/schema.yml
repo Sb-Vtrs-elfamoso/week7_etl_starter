@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: mart_weather_daily_by_location
+    description: Clean daily weather rows combined with location for analysis.
+    columns:
+      - name: location_id
+        tests:
+          - not_null
+
+  - name: mart_weather_rejected_by_reason
+    description: Rejected daily wheather rows grouped by reason.
+  
+  - name: mart_weather_monthly_by_location
+    description: Clean daily weather rows combined with location grouped by year-month and location.

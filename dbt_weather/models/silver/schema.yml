@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: stg_weather_daily
+    description: Clean daily weather rows loaded from the Python validation process.
+    columns:
+      - name: location_id
+        tests:
+         - not_null
+      - name: weather_date
+        tests:
+         - not_null
+      - name: avg_humidity_pct
+        tests:
+         - not_null
+
+  - name: stg_locations
+    description: Location reference data used to enrich weather rows.
+    columns:
+      - name: location_id
+        tests:
+          - not_null
+          - unique

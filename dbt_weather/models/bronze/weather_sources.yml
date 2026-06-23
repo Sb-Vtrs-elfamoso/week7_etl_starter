@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: student
+    schema: "{{ target.schema }}"
+    tables:
+      - name: bronze_weather_api_raw
+      - name: silver_weather_daily_clean
+      - name: rejected_weather_rows
+      - name: weather_validation_summary
+
+  - name: shared
+    schema: shared
+    tables:
+      - name: src_locations

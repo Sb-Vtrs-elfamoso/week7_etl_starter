@@ -11,7 +11,7 @@
 
   
   EXEC('create view 
-    [student10].[testview_905ff0f726e90c224e0b867c9fc98c1c_2520]
+    [student10].[testview_8329e95a5f878eb7c4c9f1f307a92880_9865]
    as 
     
     
@@ -19,9 +19,9 @@
 
 
 
-select location_id
+select total_precip_mm
 from "de_etl_db"."student10"."stg_weather_daily"
-where location_id is null
+where total_precip_mm is null
 
 
 
@@ -35,10 +35,10 @@ where location_id is null
       then 'true' else 'false' end as should_error
   from (
     select * from 
-    [student10].[testview_905ff0f726e90c224e0b867c9fc98c1c_2520]
+    [student10].[testview_8329e95a5f878eb7c4c9f1f307a92880_9865]
   
   ) dbt_internal_test;
 
   EXEC('drop view 
-    [student10].[testview_905ff0f726e90c224e0b867c9fc98c1c_2520]
+    [student10].[testview_8329e95a5f878eb7c4c9f1f307a92880_9865]
   ;')

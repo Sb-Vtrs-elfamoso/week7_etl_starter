@@ -5,14 +5,26 @@ models:
     description: Clean daily weather rows loaded from the Python validation process.
     columns:
       - name: location_id
+        description: ID number of the location measure
         tests:
          - not_null
       - name: weather_date
+        description: date of the measure
         tests:
          - not_null
       - name: avg_humidity_pct
+        description: Average humidity in percent during the day of the measure
         tests:
          - not_null
+      - name: avg_temp_c
+        description: Average temperature in Celsius degree during the day of the measure
+        tests:
+         - not_null
+      - name: total_precip_mm
+        description: Total precipitations in milimeters during the day of the measure
+        tests:
+         - not_null
+
 
   - name: stg_locations
     description: Location reference data used to enrich weather rows.

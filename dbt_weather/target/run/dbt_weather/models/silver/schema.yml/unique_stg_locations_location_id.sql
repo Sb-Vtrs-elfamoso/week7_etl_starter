@@ -11,7 +11,7 @@
 
   
   EXEC('create view 
-    [student10].[testview_8ab42ea4e1c681c2eb6fa711cc251fdd_2494]
+    [student10].[testview_8ab42ea4e1c681c2eb6fa711cc251fdd_2009]
    as 
     
     
@@ -38,10 +38,10 @@ having count(*) > 1
       then 'true' else 'false' end as should_error
   from (
     select * from 
-    [student10].[testview_8ab42ea4e1c681c2eb6fa711cc251fdd_2494]
+    [student10].[testview_8ab42ea4e1c681c2eb6fa711cc251fdd_2009]
   
   ) dbt_internal_test;
 
   EXEC('drop view 
-    [student10].[testview_8ab42ea4e1c681c2eb6fa711cc251fdd_2494]
+    [student10].[testview_8ab42ea4e1c681c2eb6fa711cc251fdd_2009]
   ;')

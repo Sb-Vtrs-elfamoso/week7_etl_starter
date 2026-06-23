@@ -11,7 +11,7 @@
 
   
   EXEC('create view 
-    [student10].[testview_ab9ff40042ef055ab56aa3351c5824fd_17681]
+    [student10].[testview_ab9ff40042ef055ab56aa3351c5824fd_14635]
    as 
     
     
@@ -35,10 +35,10 @@ where avg_humidity_pct is null
       then 'true' else 'false' end as should_error
   from (
     select * from 
-    [student10].[testview_ab9ff40042ef055ab56aa3351c5824fd_17681]
+    [student10].[testview_ab9ff40042ef055ab56aa3351c5824fd_14635]
   
   ) dbt_internal_test;
 
   EXEC('drop view 
-    [student10].[testview_ab9ff40042ef055ab56aa3351c5824fd_17681]
+    [student10].[testview_ab9ff40042ef055ab56aa3351c5824fd_14635]
   ;')

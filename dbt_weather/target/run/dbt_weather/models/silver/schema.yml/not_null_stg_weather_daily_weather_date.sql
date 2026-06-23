@@ -11,7 +11,7 @@
 
   
   EXEC('create view 
-    [student10].[testview_19dc2390cd53d56b49dec04757dd0a38_15592]
+    [student10].[testview_19dc2390cd53d56b49dec04757dd0a38_5911]
    as 
     
     
@@ -35,10 +35,10 @@ where weather_date is null
       then 'true' else 'false' end as should_error
   from (
     select * from 
-    [student10].[testview_19dc2390cd53d56b49dec04757dd0a38_15592]
+    [student10].[testview_19dc2390cd53d56b49dec04757dd0a38_5911]
   
   ) dbt_internal_test;
 
   EXEC('drop view 
-    [student10].[testview_19dc2390cd53d56b49dec04757dd0a38_15592]
+    [student10].[testview_19dc2390cd53d56b49dec04757dd0a38_5911]
   ;')

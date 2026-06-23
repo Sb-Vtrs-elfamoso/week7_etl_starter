@@ -11,20 +11,13 @@
 
   
   EXEC('create view 
-    [student10].[testview_905ff0f726e90c224e0b867c9fc98c1c_2520]
+    [student10].[testview_53e370067b72da6a89319a04b74e18ba_3616]
    as 
-    
-    
-    
-
-
-
-select location_id
+    select
+    location_id,
+    avg_humidity_pct
 from "de_etl_db"."student10"."stg_weather_daily"
-where location_id is null
-
-
-
+where avg_humidity_pct < 0 or avg_humidity_pct > 100
   ;')
   select
     
@@ -35,10 +28,10 @@ where location_id is null
       then 'true' else 'false' end as should_error
   from (
     select * from 
-    [student10].[testview_905ff0f726e90c224e0b867c9fc98c1c_2520]
+    [student10].[testview_53e370067b72da6a89319a04b74e18ba_3616]
   
   ) dbt_internal_test;
 
   EXEC('drop view 
-    [student10].[testview_905ff0f726e90c224e0b867c9fc98c1c_2520]
+    [student10].[testview_53e370067b72da6a89319a04b74e18ba_3616]
   ;')

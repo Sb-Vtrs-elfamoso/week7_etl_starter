@@ -1,0 +1,9 @@
+rejection_reason,count
+duplicate location_id + weather_date,2
+Missing or invalid weather_date; Missing or invalid weather_date; weather_date not found in references,1
+negative precipitation,1
+invalid humidity rate,1
+avg_temp_c numeric conversion failure,1
+location_id not found in references,1
+min temperature superior max temperature,1
+avg_wind_speed_kmh numeric conversion failure,1

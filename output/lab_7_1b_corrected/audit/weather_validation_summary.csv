@@ -1,0 +1,9 @@
+metric_name,metric_value,run_id,loaded_at,loaded_file_name
+source_rows,187,15c5d63b-3dd2-4496-979a-7b42d5ad1cde,2026-06-22 12:35:30,weather_corrections_bad.csv
+accepted_rows,178,15c5d63b-3dd2-4496-979a-7b42d5ad1cde,2026-06-22 12:35:30,weather_corrections_bad.csv
+rejected_rows,9,15c5d63b-3dd2-4496-979a-7b42d5ad1cde,2026-06-22 12:35:30,weather_corrections_bad.csv
+duplicate_key_rows,2,15c5d63b-3dd2-4496-979a-7b42d5ad1cde,2026-06-22 12:35:30,weather_corrections_bad.csv
+missing_or_invalid_weather_date_rows,1,15c5d63b-3dd2-4496-979a-7b42d5ad1cde,2026-06-22 12:35:30,weather_corrections_bad.csv
+negative_precipitation_rows,1,15c5d63b-3dd2-4496-979a-7b42d5ad1cde,2026-06-22 12:35:30,weather_corrections_bad.csv
+invalid_humidity_rows,1,15c5d63b-3dd2-4496-979a-7b42d5ad1cde,2026-06-22 12:35:30,weather_corrections_bad.csv
+unknown_location_rows,1,15c5d63b-3dd2-4496-979a-7b42d5ad1cde,2026-06-22 12:35:30,weather_corrections_bad.csv

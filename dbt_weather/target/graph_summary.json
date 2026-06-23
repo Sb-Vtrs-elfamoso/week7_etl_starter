@@ -1,0 +1,1 @@
+{"_invocation_id": "a3f6d11e-7745-402f-845a-aff7a2da8cff", "linked": {"0": {"name": "model.dbt_weather.dbt_setup_connection_test", "type": "model", "succ": [1, 2]}, "1": {"name": "test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1", "type": "test"}, "2": {"name": "test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c", "type": "test"}}}

@@ -1,0 +1,1575 @@
+[0m09:45:14.966462 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1078247d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107bb1a60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107bb16d0>]}
+
+
+============================== 09:45:14.968852 | 488c5b32-a44d-498a-9458-db3077800aa9 ==============================
+[0m09:45:14.968852 [info ] [MainThread]: Running with dbt=1.11.11
+[0m09:45:14.969103 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'log_cache_events': 'False', 'target_path': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'log_path': '/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/logs', 'partial_parse': 'True', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'use_colors': 'True', 'printer_width': '80', 'debug': 'False', 'cache_selected_only': 'False', 'no_print': 'None', 'version_check': 'True', 'warn_error': 'None', 'profiles_dir': '/Users/seb_el_famoso/.dbt', 'quiet': 'False'}
+[0m09:45:14.976532 [info ] [MainThread]: dbt version: 1.11.11
+[0m09:45:14.976734 [info ] [MainThread]: python version: 3.12.10
+[0m09:45:14.976955 [info ] [MainThread]: python path: /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/bin/python
+[0m09:45:14.977244 [info ] [MainThread]: os info: macOS-26.5.1-arm64-arm-64bit
+[0m09:45:14.977602 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Syntax error near line 2
+  ------------------------------
+  1  | week7_sqlserver:
+  2  | 	target: dev
+  3  | 	outputs:
+  4  | 		dev:
+  5  | 			type: sqlserver
+  
+  Raw Error:
+  ------------------------------
+  while scanning for the next token
+  found character that cannot start any token
+    in "<unicode string>", line 2, column 1
+[0m09:45:15.127327 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.17424104, "process_in_blocks": "0", "process_kernel_time": 0.088176, "process_mem_max_rss": "133070848", "process_out_blocks": "0", "process_user_time": 0.964036}
+[0m09:45:15.127861 [debug] [MainThread]: Command `dbt debug` failed at 09:45:15.127765 after 0.17 seconds
+[0m09:45:15.128205 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b97050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b97da0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107bb3e90>]}
+[0m09:45:15.128544 [debug] [MainThread]: Flushing usage events
+[0m09:45:15.642060 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:49:37.210132 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10949adb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109ce21e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109ce1e50>]}
+
+
+============================== 09:49:37.212007 | eb03367f-3b10-4288-acc4-43f62fff6d8f ==============================
+[0m09:49:37.212007 [info ] [MainThread]: Running with dbt=1.11.11
+[0m09:49:37.212281 [debug] [MainThread]: running dbt with arguments {'use_experimental_parser': 'False', 'invocation_command': 'dbt debug', 'target_path': 'None', 'empty': 'None', 'debug': 'False', 'log_cache_events': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'fail_fast': 'False', 'log_path': '/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/logs', 'cache_selected_only': 'False', 'introspect': 'True', 'write_json': 'True', 'partial_parse': 'True', 'use_colors': 'True', 'profiles_dir': '/Users/seb_el_famoso/.dbt', 'static_parser': 'True', 'printer_width': '80', 'version_check': 'True', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager'}
+[0m09:49:37.216886 [info ] [MainThread]: dbt version: 1.11.11
+[0m09:49:37.217029 [info ] [MainThread]: python version: 3.12.10
+[0m09:49:37.217221 [info ] [MainThread]: python path: /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/bin/python
+[0m09:49:37.217367 [info ] [MainThread]: os info: macOS-26.5.1-arm64-arm-64bit
+[0m09:49:37.218739 [info ] [MainThread]: Using profiles dir at /Users/seb_el_famoso/.dbt
+[0m09:49:37.218872 [info ] [MainThread]: Using profiles.yml file at /Users/seb_el_famoso/.dbt/profiles.yml
+[0m09:49:37.218984 [info ] [MainThread]: Using dbt_project.yml file at /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/dbt_project.yml
+[0m09:49:37.256636 [info ] [MainThread]: Configuration:
+[0m09:49:37.256898 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m09:49:37.257038 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m09:49:37.257152 [info ] [MainThread]: Required dependencies:
+[0m09:49:37.257334 [debug] [MainThread]: Executing "git --help"
+[0m09:49:37.268930 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m09:49:37.269347 [debug] [MainThread]: STDERR: "b''"
+[0m09:49:37.269504 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m09:49:37.269643 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m09:49:37.269771 [info ] [MainThread]: [31m1 check failed:[0m
+[0m09:49:37.269885 [info ] [MainThread]: Profile loading failed for the following reason:
+Runtime Error
+  
+  dbt encountered an error while trying to read your profiles.yml file.
+  
+  Profile week7_sqlserver in profiles.yml is empty
+  
+
+
+[0m09:49:37.271271 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.08862733, "process_in_blocks": "0", "process_kernel_time": 0.098172, "process_mem_max_rss": "137920512", "process_out_blocks": "0", "process_user_time": 1.01311}
+[0m09:49:37.271762 [debug] [MainThread]: Command `dbt debug` failed at 09:49:37.271535 after 0.09 seconds
+[0m09:49:37.272055 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10990dca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1081ad520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1071842c0>]}
+[0m09:49:37.272362 [debug] [MainThread]: Flushing usage events
+[0m09:49:37.756683 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:51:08.734794 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1103d6360>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11365e180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11365de20>]}
+
+
+============================== 09:51:08.736562 | fa5ae841-57ed-4013-a8a5-666d87ea4e4f ==============================
+[0m09:51:08.736562 [info ] [MainThread]: Running with dbt=1.11.11
+[0m09:51:08.736841 [debug] [MainThread]: running dbt with arguments {'indirect_selection': 'eager', 'profiles_dir': '/Users/seb_el_famoso/.dbt', 'static_parser': 'True', 'log_cache_events': 'False', 'log_path': '/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/logs', 'partial_parse': 'True', 'write_json': 'True', 'quiet': 'False', 'send_anonymous_usage_stats': 'True', 'debug': 'False', 'version_check': 'True', 'cache_selected_only': 'False', 'empty': 'None', 'warn_error': 'None', 'target_path': 'None', 'introspect': 'True', 'no_print': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'printer_width': '80', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_experimental_parser': 'False', 'log_format': 'default'}
+[0m09:51:08.740822 [info ] [MainThread]: dbt version: 1.11.11
+[0m09:51:08.740977 [info ] [MainThread]: python version: 3.12.10
+[0m09:51:08.741096 [info ] [MainThread]: python path: /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/bin/python
+[0m09:51:08.741205 [info ] [MainThread]: os info: macOS-26.5.1-arm64-arm-64bit
+[0m09:51:08.742522 [info ] [MainThread]: Using profiles dir at /Users/seb_el_famoso/.dbt
+[0m09:51:08.742735 [info ] [MainThread]: Using profiles.yml file at /Users/seb_el_famoso/.dbt/profiles.yml
+[0m09:51:08.742866 [info ] [MainThread]: Using dbt_project.yml file at /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/dbt_project.yml
+[0m09:51:08.779828 [info ] [MainThread]: Configuration:
+[0m09:51:08.780055 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m09:51:08.780186 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m09:51:08.780297 [info ] [MainThread]: Required dependencies:
+[0m09:51:08.780479 [debug] [MainThread]: Executing "git --help"
+[0m09:51:08.791945 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m09:51:08.792353 [debug] [MainThread]: STDERR: "b''"
+[0m09:51:08.792493 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m09:51:08.792630 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m09:51:08.792749 [info ] [MainThread]: [31m1 check failed:[0m
+[0m09:51:08.792854 [info ] [MainThread]: Profile loading failed for the following reason:
+Runtime Error
+  
+  dbt encountered an error while trying to read your profiles.yml file.
+  
+  Profile week7_sqlserver in profiles.yml is empty
+  
+
+
+[0m09:51:08.794188 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.08712758, "process_in_blocks": "0", "process_kernel_time": 0.101517, "process_mem_max_rss": "137510912", "process_out_blocks": "0", "process_user_time": 1.005696}
+[0m09:51:08.794389 [debug] [MainThread]: Command `dbt debug` failed at 09:51:08.794354 after 0.09 seconds
+[0m09:51:08.794569 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1132b36b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11368c950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113699fa0>]}
+[0m09:51:08.794751 [debug] [MainThread]: Flushing usage events
+[0m09:51:09.265151 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:52:08.976207 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10641d700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1069432c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106942f60>]}
+
+
+============================== 09:52:08.977934 | 9ccc3daa-a9ba-457b-9a60-7282f0aff575 ==============================
+[0m09:52:08.977934 [info ] [MainThread]: Running with dbt=1.11.11
+[0m09:52:08.978202 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'no_print': 'None', 'cache_selected_only': 'False', 'profiles_dir': '/Users/seb_el_famoso/.dbt', 'log_format': 'default', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'version_check': 'True', 'warn_error': 'None', 'write_json': 'True', 'static_parser': 'True', 'fail_fast': 'False', 'indirect_selection': 'eager', 'log_path': '/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/logs', 'log_cache_events': 'False', 'introspect': 'True', 'debug': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'quiet': 'False', 'empty': 'None', 'printer_width': '80', 'target_path': 'None', 'use_experimental_parser': 'False', 'invocation_command': 'dbt debug'}
+[0m09:52:08.982089 [info ] [MainThread]: dbt version: 1.11.11
+[0m09:52:08.982236 [info ] [MainThread]: python version: 3.12.10
+[0m09:52:08.982355 [info ] [MainThread]: python path: /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/bin/python
+[0m09:52:08.982468 [info ] [MainThread]: os info: macOS-26.5.1-arm64-arm-64bit
+[0m09:52:08.984122 [error] [MainThread]: Encountered an error:
+argument of type 'NoneType' is not iterable
+[0m09:52:08.986667 [error] [MainThread]: Traceback (most recent call last):
+  File "/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/lib/python3.12/site-packages/dbt/cli/requires.py", line 182, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/lib/python3.12/site-packages/dbt/cli/requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/lib/python3.12/site-packages/dbt/cli/main.py", line 425, in debug
+    results = task.run()
+              ^^^^^^^^^^
+  File "/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/lib/python3.12/site-packages/dbt/task/debug.py", line 114, in run
+    load_profile_status: SubtaskStatus = self._load_profile()
+                                         ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/lib/python3.12/site-packages/dbt/task/debug.py", line 205, in _load_profile
+    profile: Profile = Profile.render(
+                       ^^^^^^^^^^^^^^^
+  File "/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/lib/python3.12/site-packages/dbt/config/profile.py", line 404, in render
+    return cls.from_raw_profiles(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/lib/python3.12/site-packages/dbt/config/profile.py", line 370, in from_raw_profiles
+    return cls.from_raw_profile_info(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/lib/python3.12/site-packages/dbt/config/profile.py", line 316, in from_raw_profile_info
+    target_name, profile_data = cls.render_profile(
+                                ^^^^^^^^^^^^^^^^^^^
+  File "/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/lib/python3.12/site-packages/dbt/config/profile.py", line 282, in render_profile
+    raw_profile_data = cls._get_profile_data(raw_profile, profile_name, target_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/lib/python3.12/site-packages/dbt/config/profile.py", line 207, in _get_profile_data
+    if target_name not in outputs:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+
+[0m09:52:08.987982 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.039592043, "process_in_blocks": "0", "process_kernel_time": 0.095962, "process_mem_max_rss": "135069696", "process_out_blocks": "0", "process_user_time": 0.974238}
+[0m09:52:08.988184 [debug] [MainThread]: Command `dbt debug` failed at 09:52:08.988146 after 0.04 seconds
+[0m09:52:08.988326 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106942a80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1063b9370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10696fda0>]}
+[0m09:52:08.988466 [debug] [MainThread]: Flushing usage events
+[0m09:52:09.386910 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:52:52.490618 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x118f93590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11a756cc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11a756930>]}
+
+
+============================== 09:52:52.492397 | a99e1020-0f8f-4761-822d-438f6291a490 ==============================
+[0m09:52:52.492397 [info ] [MainThread]: Running with dbt=1.11.11
+[0m09:52:52.492660 [debug] [MainThread]: running dbt with arguments {'log_cache_events': 'False', 'profiles_dir': '/Users/seb_el_famoso/.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'warn_error': 'None', 'use_experimental_parser': 'False', 'version_check': 'True', 'log_path': '/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/logs', 'introspect': 'True', 'static_parser': 'True', 'quiet': 'False', 'use_colors': 'True', 'debug': 'False', 'printer_width': '80', 'send_anonymous_usage_stats': 'True', 'no_print': 'None', 'target_path': 'None', 'write_json': 'True', 'log_format': 'default', 'cache_selected_only': 'False', 'empty': 'None'}
+[0m09:52:52.496526 [info ] [MainThread]: dbt version: 1.11.11
+[0m09:52:52.496677 [info ] [MainThread]: python version: 3.12.10
+[0m09:52:52.496793 [info ] [MainThread]: python path: /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/bin/python
+[0m09:52:52.496901 [info ] [MainThread]: os info: macOS-26.5.1-arm64-arm-64bit
+[0m09:52:52.498341 [error] [MainThread]: Encountered an error:
+argument of type 'NoneType' is not iterable
+[0m09:52:52.499166 [error] [MainThread]: Traceback (most recent call last):
+  File "/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/lib/python3.12/site-packages/dbt/cli/requires.py", line 182, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/lib/python3.12/site-packages/dbt/cli/requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/lib/python3.12/site-packages/dbt/cli/main.py", line 425, in debug
+    results = task.run()
+              ^^^^^^^^^^
+  File "/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/lib/python3.12/site-packages/dbt/task/debug.py", line 114, in run
+    load_profile_status: SubtaskStatus = self._load_profile()
+                                         ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/lib/python3.12/site-packages/dbt/task/debug.py", line 205, in _load_profile
+    profile: Profile = Profile.render(
+                       ^^^^^^^^^^^^^^^
+  File "/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/lib/python3.12/site-packages/dbt/config/profile.py", line 404, in render
+    return cls.from_raw_profiles(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/lib/python3.12/site-packages/dbt/config/profile.py", line 370, in from_raw_profiles
+    return cls.from_raw_profile_info(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/lib/python3.12/site-packages/dbt/config/profile.py", line 316, in from_raw_profile_info
+    target_name, profile_data = cls.render_profile(
+                                ^^^^^^^^^^^^^^^^^^^
+  File "/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/lib/python3.12/site-packages/dbt/config/profile.py", line 282, in render_profile
+    raw_profile_data = cls._get_profile_data(raw_profile, profile_name, target_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/lib/python3.12/site-packages/dbt/config/profile.py", line 207, in _get_profile_data
+    if target_name not in outputs:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+
+[0m09:52:52.500694 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.037782293, "process_in_blocks": "0", "process_kernel_time": 0.0961, "process_mem_max_rss": "135430144", "process_out_blocks": "0", "process_user_time": 0.974645}
+[0m09:52:52.501023 [debug] [MainThread]: Command `dbt debug` failed at 09:52:52.500978 after 0.04 seconds
+[0m09:52:52.501210 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107022ba0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11a756630>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11a7f50a0>]}
+[0m09:52:52.501415 [debug] [MainThread]: Flushing usage events
+[0m09:52:53.003147 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:53:08.743901 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e0d48c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e453440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e4530e0>]}
+
+
+============================== 09:53:08.745693 | c4ccef56-b3b6-48f8-b804-0ef0ba102ebd ==============================
+[0m09:53:08.745693 [info ] [MainThread]: Running with dbt=1.11.11
+[0m09:53:08.745962 [debug] [MainThread]: running dbt with arguments {'introspect': 'True', 'debug': 'False', 'write_json': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'empty': 'None', 'warn_error': 'None', 'indirect_selection': 'eager', 'printer_width': '80', 'version_check': 'True', 'no_print': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'partial_parse': 'True', 'log_cache_events': 'False', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_colors': 'True', 'use_experimental_parser': 'False', 'profiles_dir': '/Users/seb_el_famoso/.dbt', 'log_path': '/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/logs', 'target_path': 'None', 'quiet': 'False'}
+[0m09:53:08.750119 [info ] [MainThread]: dbt version: 1.11.11
+[0m09:53:08.750305 [info ] [MainThread]: python version: 3.12.10
+[0m09:53:08.750508 [info ] [MainThread]: python path: /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/bin/python
+[0m09:53:08.750631 [info ] [MainThread]: os info: macOS-26.5.1-arm64-arm-64bit
+[0m09:53:08.751951 [info ] [MainThread]: Using profiles dir at /Users/seb_el_famoso/.dbt
+[0m09:53:08.752081 [info ] [MainThread]: Using profiles.yml file at /Users/seb_el_famoso/.dbt/profiles.yml
+[0m09:53:08.752185 [info ] [MainThread]: Using dbt_project.yml file at /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/dbt_project.yml
+[0m09:53:08.789755 [info ] [MainThread]: Configuration:
+[0m09:53:08.790005 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m09:53:08.790142 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m09:53:08.790252 [info ] [MainThread]: Required dependencies:
+[0m09:53:08.790432 [debug] [MainThread]: Executing "git --help"
+[0m09:53:08.802686 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m09:53:08.803091 [debug] [MainThread]: STDERR: "b''"
+[0m09:53:08.803237 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m09:53:08.803389 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m09:53:08.803530 [info ] [MainThread]: [31m1 check failed:[0m
+[0m09:53:08.803643 [info ] [MainThread]: Profile loading failed for the following reason:
+Runtime Error
+  
+  dbt encountered an error while trying to read your profiles.yml file.
+  
+  Profile week7_sqlserver in profiles.yml is empty
+  
+
+
+[0m09:53:08.804985 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.08859742, "process_in_blocks": "0", "process_kernel_time": 0.100462, "process_mem_max_rss": "137052160", "process_out_blocks": "0", "process_user_time": 1.004182}
+[0m09:53:08.805215 [debug] [MainThread]: Command `dbt debug` failed at 09:53:08.805178 after 0.09 seconds
+[0m09:53:08.805413 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d31c0e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c97aab0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e2e7c50>]}
+[0m09:53:08.805597 [debug] [MainThread]: Flushing usage events
+[0m09:53:09.216610 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:54:02.465446 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e3aba0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107fc60c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107fc5d60>]}
+
+
+============================== 09:54:02.467168 | 1dec1c64-7f39-42e8-8b6c-185bfac89083 ==============================
+[0m09:54:02.467168 [info ] [MainThread]: Running with dbt=1.11.11
+[0m09:54:02.467438 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt debug', 'printer_width': '80', 'profiles_dir': '/Users/seb_el_famoso/.dbt', 'debug': 'False', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'cache_selected_only': 'False', 'quiet': 'False', 'write_json': 'True', 'warn_error': 'None', 'partial_parse': 'True', 'empty': 'None', 'fail_fast': 'False', 'introspect': 'True', 'log_format': 'default', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'version_check': 'True', 'use_colors': 'True', 'static_parser': 'True', 'log_path': '/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/logs', 'indirect_selection': 'eager'}
+[0m09:54:02.471333 [info ] [MainThread]: dbt version: 1.11.11
+[0m09:54:02.471488 [info ] [MainThread]: python version: 3.12.10
+[0m09:54:02.471709 [info ] [MainThread]: python path: /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/bin/python
+[0m09:54:02.471856 [info ] [MainThread]: os info: macOS-26.5.1-arm64-arm-64bit
+[0m09:54:02.510887 [info ] [MainThread]: Using profiles dir at /Users/seb_el_famoso/.dbt
+[0m09:54:02.511127 [info ] [MainThread]: Using profiles.yml file at /Users/seb_el_famoso/.dbt/profiles.yml
+[0m09:54:02.511263 [info ] [MainThread]: Using dbt_project.yml file at /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/dbt_project.yml
+[0m09:54:02.511382 [info ] [MainThread]: adapter type: sqlserver
+[0m09:54:02.511493 [info ] [MainThread]: adapter version: 1.10.0
+[0m09:54:02.547519 [info ] [MainThread]: Configuration:
+[0m09:54:02.547756 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m09:54:02.547888 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m09:54:02.548000 [info ] [MainThread]: Required dependencies:
+[0m09:54:02.548201 [debug] [MainThread]: Executing "git --help"
+[0m09:54:02.560004 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m09:54:02.560386 [debug] [MainThread]: STDERR: "b''"
+[0m09:54:02.560522 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m09:54:02.560657 [info ] [MainThread]: Connection:
+[0m09:54:02.560795 [info ] [MainThread]:   server: desql.database.windows.net
+[0m09:54:02.560906 [info ] [MainThread]:   port: 1433
+[0m09:54:02.561011 [info ] [MainThread]:   database: de_etl_db
+[0m09:54:02.561113 [info ] [MainThread]:   schema: student10
+[0m09:54:02.561214 [info ] [MainThread]:   UID: student10
+[0m09:54:02.561315 [info ] [MainThread]:   authentication: sql
+[0m09:54:02.561420 [info ] [MainThread]:   retries: 3
+[0m09:54:02.561519 [info ] [MainThread]:   login_timeout: 0
+[0m09:54:02.561620 [info ] [MainThread]:   query_timeout: 0
+[0m09:54:02.561722 [info ] [MainThread]:   trace_flag: False
+[0m09:54:02.561823 [info ] [MainThread]:   encrypt: True
+[0m09:54:02.561923 [info ] [MainThread]:   trust_cert: False
+[0m09:54:02.562172 [info ] [MainThread]: Registered adapter: sqlserver=1.10.0
+[0m09:54:02.908744 [warn ] [MainThread]: [[33mWARNING[0m]: When True, uses SQL Server-native string type mappings: STRING -> VARCHAR(MAX), NCHAR -> NCHAR(1), NVARCHAR -> NVARCHAR(4000). When False (default), preserves legacy mappings: STRING and NVARCHAR -> VARCHAR(8000), NCHAR -> CHAR(1). The new behaviour is intended to become the default in a future release.
+You may opt into the new behavior sooner by setting `flags.dbt_sqlserver_use_native_string_types` to `True` in `dbt_project.yml`.
+Visit https://docs.getdbt.com/reference/global-configs/behavior-changes for more information.
+[0m09:54:02.909140 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'BehaviorChangeEvent', 'label': '1dec1c64-7f39-42e8-8b6c-185bfac89083', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1085a9490>]}
+[0m09:54:02.909437 [debug] [MainThread]: Acquiring new sqlserver connection 'debug'
+[0m09:54:02.909601 [debug] [MainThread]: Using sqlserver connection "debug"
+[0m09:54:02.909718 [debug] [MainThread]: On debug: select 1 as id
+[0m09:54:02.909829 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m09:54:02.909974 [debug] [MainThread]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=desql.database.windows.net,1433;Database=de_etl_db;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;UID={student10};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.10.0;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m09:54:03.630288 [debug] [MainThread]: sqlserver adapter: Connected to db: de_etl_db
+[0m09:54:03.690687 [debug] [MainThread]: SQL status: OK in 1.000 seconds
+[0m09:54:03.693605 [debug] [MainThread]: On debug: Close
+[0m09:54:03.694196 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m09:54:03.694663 [info ] [MainThread]: [32mAll checks passed![0m
+[0m09:54:03.699168 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 1.2613525, "process_in_blocks": "0", "process_kernel_time": 0.175904, "process_mem_max_rss": "151273472", "process_out_blocks": "0", "process_user_time": 1.137097}
+[0m09:54:03.699892 [debug] [MainThread]: Command `dbt debug` succeeded at 09:54:03.699782 after 1.26 seconds
+[0m09:54:03.700313 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m09:54:03.700713 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107fc5df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072be960>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107de4350>]}
+[0m09:54:03.701182 [debug] [MainThread]: Flushing usage events
+[0m09:54:04.132181 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:54:29.312614 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104acf350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105c5aae0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105c5a750>]}
+
+
+============================== 09:54:29.314363 | 0e67574a-a0f9-4a37-829a-bb89165ab3be ==============================
+[0m09:54:29.314363 [info ] [MainThread]: Running with dbt=1.11.11
+[0m09:54:29.314630 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'invocation_command': 'dbt parse', 'introspect': 'True', 'empty': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'log_path': '/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/logs', 'write_json': 'True', 'warn_error': 'None', 'printer_width': '80', 'target_path': 'None', 'quiet': 'False', 'profiles_dir': '/Users/seb_el_famoso/.dbt', 'use_colors': 'True', 'no_print': 'None', 'debug': 'False', 'version_check': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False'}
+[0m09:54:29.399065 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0e67574a-a0f9-4a37-829a-bb89165ab3be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1060798b0>]}
+[0m09:54:29.420896 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0e67574a-a0f9-4a37-829a-bb89165ab3be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105fa6870>]}
+[0m09:54:29.421172 [info ] [MainThread]: Registered adapter: sqlserver=1.10.0
+[0m09:54:29.468394 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m09:54:29.468748 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m09:54:29.468913 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '0e67574a-a0f9-4a37-829a-bb89165ab3be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105fd1490>]}
+[0m09:54:29.871507 [warn ] [MainThread]: [[33mWARNING[0m]: When True, uses dbt-core's standard schema concatenation (`target.schema` + `_` + `custom_schema_name`). When False (default), uses legacy adapter behaviour: `custom_schema_name` is used directly without prefixing `target.schema`. For a permanent solution, override the `sqlserver__generate_schema_name` macro in your project instead.
+You may opt into the new behavior sooner by setting `flags.dbt_sqlserver_use_default_schema_concat` to `True` in `dbt_project.yml`.
+Visit https://docs.getdbt.com/reference/global-configs/behavior-changes for more information.
+[0m09:54:29.871808 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'BehaviorChangeEvent', 'label': '0e67574a-a0f9-4a37-829a-bb89165ab3be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106185610>]}
+[0m09:54:29.969995 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.dbt_weather.silver
+- models.dbt_weather.bronze
+- models.dbt_weather.gold
+[0m09:54:29.971987 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0e67574a-a0f9-4a37-829a-bb89165ab3be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106805460>]}
+[0m09:54:29.973513 [info ] [MainThread]: Performance info: /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/perf_info.json
+[0m09:54:30.005189 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/manifest.json
+[0m09:54:30.006260 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/semantic_manifest.json
+[0m09:54:30.007606 [debug] [MainThread]: Resource report: {"command_name": "parse", "command_success": true, "command_wall_clock_time": 0.72293955, "process_in_blocks": "0", "process_kernel_time": 0.146285, "process_mem_max_rss": "159203328", "process_out_blocks": "0", "process_user_time": 1.586701}
+[0m09:54:30.007787 [debug] [MainThread]: Command `dbt parse` succeeded at 09:54:30.007753 after 0.72 seconds
+[0m09:54:30.007928 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10612e990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1066cc110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106858fe0>]}
+[0m09:54:30.008063 [debug] [MainThread]: Flushing usage events
+[0m09:54:30.487957 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:54:43.402682 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1062e6fc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f32240>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f31eb0>]}
+
+
+============================== 09:54:43.404553 | ee1cf4b1-7252-4627-b09b-78b91984ec6d ==============================
+[0m09:54:43.404553 [info ] [MainThread]: Running with dbt=1.11.11
+[0m09:54:43.404814 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'introspect': 'True', 'profiles_dir': '/Users/seb_el_famoso/.dbt', 'invocation_command': 'dbt run --select tag:setup_check', 'log_format': 'default', 'warn_error': 'None', 'write_json': 'True', 'empty': 'False', 'cache_selected_only': 'False', 'printer_width': '80', 'quiet': 'False', 'use_experimental_parser': 'False', 'log_path': '/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/logs', 'static_parser': 'True', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'debug': 'False', 'no_print': 'None', 'fail_fast': 'False', 'target_path': 'None', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m09:54:43.487293 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ee1cf4b1-7252-4627-b09b-78b91984ec6d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10846dcd0>]}
+[0m09:54:43.509035 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ee1cf4b1-7252-4627-b09b-78b91984ec6d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107605340>]}
+[0m09:54:43.509321 [info ] [MainThread]: Registered adapter: sqlserver=1.10.0
+[0m09:54:43.557734 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m09:54:43.603911 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m09:54:43.604093 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m09:54:43.604201 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m09:54:43.606439 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.dbt_weather.gold
+- models.dbt_weather.bronze
+- models.dbt_weather.silver
+[0m09:54:43.619666 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ee1cf4b1-7252-4627-b09b-78b91984ec6d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1083b0e90>]}
+[0m09:54:43.679750 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/manifest.json
+[0m09:54:43.680570 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/semantic_manifest.json
+[0m09:54:43.685067 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ee1cf4b1-7252-4627-b09b-78b91984ec6d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1087bb0b0>]}
+[0m09:54:43.685243 [info ] [MainThread]: Found 1 model, 2 data tests, 522 macros
+[0m09:54:43.685375 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ee1cf4b1-7252-4627-b09b-78b91984ec6d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108721820>]}
+[0m09:54:43.686009 [info ] [MainThread]: 
+[0m09:54:43.686137 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m09:54:43.686242 [info ] [MainThread]: 
+[0m09:54:43.686431 [debug] [MainThread]: Acquiring new sqlserver connection 'master'
+[0m09:54:43.686827 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_de_etl_db'
+[0m09:54:43.695865 [debug] [ThreadPool]: dbt-sqlserver
+[0m09:54:43.696039 [debug] [ThreadPool]: Using sqlserver connection "list_de_etl_db"
+[0m09:54:43.696149 [debug] [ThreadPool]: On list_de_etl_db: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "week7_sqlserver", "target_name": "dev", "connection_name": "list_de_etl_db"} */
+USE [de_etl_db];
+    select  name as [schema]
+    from sys.schemas with (nolock) 
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m09:54:43.696253 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:54:43.696371 [debug] [ThreadPool]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=desql.database.windows.net,1433;Database=de_etl_db;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;UID={student10};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.10.0;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m09:54:44.351485 [debug] [ThreadPool]: sqlserver adapter: Connected to db: de_etl_db
+[0m09:54:44.406223 [debug] [ThreadPool]: SQL status: OK in 1.000 seconds
+[0m09:54:44.409575 [debug] [ThreadPool]: On list_de_etl_db: Close
+[0m09:54:44.411172 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_de_etl_db, now list_de_etl_db_student10)
+[0m09:54:44.417901 [debug] [ThreadPool]: dbt-sqlserver
+[0m09:54:44.418374 [debug] [ThreadPool]: Using sqlserver connection "list_de_etl_db_student10"
+[0m09:54:44.418654 [debug] [ThreadPool]: On list_de_etl_db_student10: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "week7_sqlserver", "target_name": "dev", "connection_name": "list_de_etl_db_student10"} */
+USE [de_etl_db];
+    declare @schema_id int = schema_id('student10');
+    select
+      DB_NAME() as [database],
+      t.name as [name],
+      'student10' as [schema],
+      'table' as table_type
+    from sys.tables as t with (nolock)
+    where t.schema_id = @schema_id
+    union all
+    select
+      DB_NAME() as [database],
+      v.name as [name],
+      'student10' as [schema],
+      'view' as table_type
+    from sys.views as v with (nolock)
+    where v.schema_id = @schema_id
+    
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m09:54:44.418916 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:54:44.419174 [debug] [ThreadPool]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=desql.database.windows.net,1433;Database=de_etl_db;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;UID={student10};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.10.0;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m09:54:44.419427 [debug] [ThreadPool]: sqlserver adapter: Connected to db: de_etl_db
+[0m09:54:44.500390 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m09:54:44.503742 [debug] [ThreadPool]: On list_de_etl_db_student10: ROLLBACK
+[0m09:54:44.504515 [debug] [ThreadPool]: On list_de_etl_db_student10: Close
+[0m09:54:44.505282 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ee1cf4b1-7252-4627-b09b-78b91984ec6d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108532900>]}
+[0m09:54:44.505823 [debug] [MainThread]: On master: COMMIT
+[0m09:54:44.509376 [debug] [Thread-1 (]: Began running node model.dbt_weather.dbt_setup_connection_test
+[0m09:54:44.509849 [info ] [Thread-1 (]: 1 of 1 START sql view model student10.dbt_setup_connection_test ................ [RUN]
+[0m09:54:44.510230 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_de_etl_db_student10, now model.dbt_weather.dbt_setup_connection_test)
+[0m09:54:44.510530 [debug] [Thread-1 (]: Began compiling node model.dbt_weather.dbt_setup_connection_test
+[0m09:54:44.517210 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_weather.dbt_setup_connection_test"
+[0m09:54:44.518287 [debug] [Thread-1 (]: Began executing node model.dbt_weather.dbt_setup_connection_test
+[0m09:54:44.549283 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_weather.dbt_setup_connection_test"
+[0m09:54:44.550042 [debug] [Thread-1 (]: Using sqlserver connection "model.dbt_weather.dbt_setup_connection_test"
+[0m09:54:44.550252 [debug] [Thread-1 (]: On model.dbt_weather.dbt_setup_connection_test: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "week7_sqlserver", "target_name": "dev", "node_id": "model.dbt_weather.dbt_setup_connection_test"} */
+USE [de_etl_db];
+    
+    
+
+    
+
+    
+    USE [de_etl_db];
+    EXEC('
+        CREATE OR ALTER VIEW "student10"."dbt_setup_connection_test" AS /*
+    Setup check model.
+
+    This model exists only to verify that:
+    - dbt is installed
+    - profiles.yml works
+    - Azure SQL connection works
+    - dbt can create a view in your own schema
+
+    It is not part of the actual weather ETL lab.
+*/
+
+select
+    cast(1 as int) as id,
+    cast(''dbt setup check'' as varchar(100)) as description_text;
+    ')
+
+
+[0m09:54:44.550427 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m09:54:44.550603 [debug] [Thread-1 (]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=desql.database.windows.net,1433;Database=de_etl_db;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;UID={student10};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.10.0;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m09:54:44.550800 [debug] [Thread-1 (]: sqlserver adapter: Connected to db: de_etl_db
+[0m09:54:44.618413 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m09:54:44.627827 [debug] [Thread-1 (]: On model.dbt_weather.dbt_setup_connection_test: COMMIT
+[0m09:54:44.630852 [debug] [Thread-1 (]: Applying DROP to: "de_etl_db"."student10"."dbt_setup_connection_test__dbt_backup"
+[0m09:54:44.634845 [debug] [Thread-1 (]: dbt-sqlserver
+[0m09:54:44.635173 [debug] [Thread-1 (]: Using sqlserver connection "model.dbt_weather.dbt_setup_connection_test"
+[0m09:54:44.635432 [debug] [Thread-1 (]: On model.dbt_weather.dbt_setup_connection_test: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "week7_sqlserver", "target_name": "dev", "node_id": "model.dbt_weather.dbt_setup_connection_test"} */
+
+        USE [de_etl_db];
+        select
+            sch.name as schema_name,
+            obj.name as view_name
+        from sys.sql_expression_dependencies refs
+        inner join sys.objects obj
+        on refs.referencing_id = obj.object_id
+        inner join sys.schemas sch
+        on obj.schema_id = sch.schema_id
+        where refs.referenced_database_name = 'de_etl_db'
+        and refs.referenced_schema_name = 'student10'
+        and refs.referenced_entity_name = 'dbt_setup_connection_test__dbt_backup'
+        and obj.type = 'V'
+        
+    OPTION (LABEL = 'dbt-sqlserver');
+
+      
+[0m09:54:44.702196 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m09:54:44.703311 [debug] [Thread-1 (]: Using sqlserver connection "model.dbt_weather.dbt_setup_connection_test"
+[0m09:54:44.703555 [debug] [Thread-1 (]: On model.dbt_weather.dbt_setup_connection_test: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "week7_sqlserver", "target_name": "dev", "node_id": "model.dbt_weather.dbt_setup_connection_test"} */
+
+      
+      
+    
+    USE [de_etl_db];
+    EXEC('DROP view IF EXISTS "student10"."dbt_setup_connection_test__dbt_backup";');
+
+[0m09:54:44.755695 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m09:54:44.758938 [debug] [Thread-1 (]: On model.dbt_weather.dbt_setup_connection_test: ROLLBACK
+[0m09:54:44.759409 [debug] [Thread-1 (]: On model.dbt_weather.dbt_setup_connection_test: Close
+[0m09:54:44.761653 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ee1cf4b1-7252-4627-b09b-78b91984ec6d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10714cd40>]}
+[0m09:54:44.762280 [info ] [Thread-1 (]: 1 of 1 OK created sql view model student10.dbt_setup_connection_test ........... [[32mOK[0m in 0.25s]
+[0m09:54:44.762783 [debug] [Thread-1 (]: Finished running node model.dbt_weather.dbt_setup_connection_test
+[0m09:54:44.763770 [debug] [MainThread]: On master: COMMIT
+[0m09:54:44.764162 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m09:54:44.764426 [debug] [MainThread]: Connection 'model.dbt_weather.dbt_setup_connection_test' was properly closed.
+[0m09:54:44.764679 [info ] [MainThread]: 
+[0m09:54:44.764951 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 1.08 seconds (1.08s).
+[0m09:54:44.765498 [debug] [MainThread]: Command end result
+[0m09:54:44.785851 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/manifest.json
+[0m09:54:44.786979 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/semantic_manifest.json
+[0m09:54:44.790133 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/run_results.json
+[0m09:54:44.790311 [info ] [MainThread]: 
+[0m09:54:44.790519 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m09:54:44.790673 [info ] [MainThread]: 
+[0m09:54:44.790850 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m09:54:44.792706 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 1.4179963, "process_in_blocks": "0", "process_kernel_time": 0.162226, "process_mem_max_rss": "159186944", "process_out_blocks": "0", "process_user_time": 1.374107}
+[0m09:54:44.792933 [debug] [MainThread]: Command `dbt run` succeeded at 09:54:44.792888 after 1.42 seconds
+[0m09:54:44.793116 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107cc8770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1055e0fe0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107790cb0>]}
+[0m09:54:44.793298 [debug] [MainThread]: Flushing usage events
+[0m09:54:45.221896 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:54:57.522017 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1097ce270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109fcbaa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a08eab0>]}
+
+
+============================== 09:54:57.523921 | 9f71e605-9fbc-4838-ba55-1c39bcb7de64 ==============================
+[0m09:54:57.523921 [info ] [MainThread]: Running with dbt=1.11.11
+[0m09:54:57.524189 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'introspect': 'True', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'target_path': 'None', 'profiles_dir': '/Users/seb_el_famoso/.dbt', 'log_format': 'default', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'empty': 'None', 'printer_width': '80', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'indirect_selection': 'eager', 'log_path': '/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/logs', 'static_parser': 'True', 'quiet': 'False', 'fail_fast': 'False', 'debug': 'False', 'invocation_command': 'dbt test --select tag:setup_check', 'write_json': 'True', 'log_cache_events': 'False'}
+[0m09:54:57.604220 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9f71e605-9fbc-4838-ba55-1c39bcb7de64', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a0e0e90>]}
+[0m09:54:57.626077 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '9f71e605-9fbc-4838-ba55-1c39bcb7de64', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1094d21b0>]}
+[0m09:54:57.626328 [info ] [MainThread]: Registered adapter: sqlserver=1.10.0
+[0m09:54:57.673143 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m09:54:57.716202 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m09:54:57.716368 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m09:54:57.716472 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m09:54:57.718647 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.dbt_weather.gold
+- models.dbt_weather.silver
+- models.dbt_weather.bronze
+[0m09:54:57.731411 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '9f71e605-9fbc-4838-ba55-1c39bcb7de64', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a8979b0>]}
+[0m09:54:57.793120 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/manifest.json
+[0m09:54:57.793937 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/semantic_manifest.json
+[0m09:54:57.801162 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '9f71e605-9fbc-4838-ba55-1c39bcb7de64', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a7cd250>]}
+[0m09:54:57.801350 [info ] [MainThread]: Found 1 model, 2 data tests, 522 macros
+[0m09:54:57.801485 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '9f71e605-9fbc-4838-ba55-1c39bcb7de64', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a88b740>]}
+[0m09:54:57.802146 [info ] [MainThread]: 
+[0m09:54:57.802274 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m09:54:57.802379 [info ] [MainThread]: 
+[0m09:54:57.802563 [debug] [MainThread]: Acquiring new sqlserver connection 'master'
+[0m09:54:57.802919 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_de_etl_db_student10'
+[0m09:54:57.812463 [debug] [ThreadPool]: dbt-sqlserver
+[0m09:54:57.812643 [debug] [ThreadPool]: Using sqlserver connection "list_de_etl_db_student10"
+[0m09:54:57.812759 [debug] [ThreadPool]: On list_de_etl_db_student10: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "week7_sqlserver", "target_name": "dev", "connection_name": "list_de_etl_db_student10"} */
+USE [de_etl_db];
+    declare @schema_id int = schema_id('student10');
+    select
+      DB_NAME() as [database],
+      t.name as [name],
+      'student10' as [schema],
+      'table' as table_type
+    from sys.tables as t with (nolock)
+    where t.schema_id = @schema_id
+    union all
+    select
+      DB_NAME() as [database],
+      v.name as [name],
+      'student10' as [schema],
+      'view' as table_type
+    from sys.views as v with (nolock)
+    where v.schema_id = @schema_id
+    
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m09:54:57.812869 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:54:57.812986 [debug] [ThreadPool]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=desql.database.windows.net,1433;Database=de_etl_db;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;UID={student10};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.10.0;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m09:54:58.542859 [debug] [ThreadPool]: sqlserver adapter: Connected to db: de_etl_db
+[0m09:54:58.603706 [debug] [ThreadPool]: SQL status: OK in 1.000 seconds
+[0m09:54:58.607408 [debug] [ThreadPool]: On list_de_etl_db_student10: ROLLBACK
+[0m09:54:58.607841 [debug] [ThreadPool]: On list_de_etl_db_student10: Close
+[0m09:54:58.608831 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '9f71e605-9fbc-4838-ba55-1c39bcb7de64', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a9597f0>]}
+[0m09:54:58.609412 [debug] [MainThread]: On master: COMMIT
+[0m09:54:58.612254 [debug] [Thread-1 (]: Began running node test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1
+[0m09:54:58.612811 [info ] [Thread-1 (]: 1 of 2 START test not_null_dbt_setup_connection_test_id ........................ [RUN]
+[0m09:54:58.613342 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_de_etl_db_student10, now test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1)
+[0m09:54:58.613721 [debug] [Thread-1 (]: Began compiling node test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1
+[0m09:54:58.628101 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1"
+[0m09:54:58.628812 [debug] [Thread-1 (]: Began executing node test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1
+[0m09:54:58.641748 [debug] [Thread-1 (]: Writing runtime sql for node "test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1"
+[0m09:54:58.642327 [debug] [Thread-1 (]: Using sqlserver connection "test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1"
+[0m09:54:58.642562 [debug] [Thread-1 (]: On test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "week7_sqlserver", "target_name": "dev", "node_id": "test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1"} */
+
+    
+    -- Create target schema if it does not
+  USE [de_etl_db];
+  IF NOT EXISTS (SELECT * FROM sys.schemas WHERE name = 'student10')
+  BEGIN
+    EXEC('CREATE SCHEMA [student10]')
+  END
+
+  
+
+  
+  EXEC('create view 
+    [student10].[testview_1aa2a4772ffb56c97de3e2dd8f18a029_4081]
+   as 
+    
+    
+    
+
+
+
+select id
+from "de_etl_db"."student10"."dbt_setup_connection_test"
+where id is null
+
+
+
+  ;')
+  select
+    
+    count(*) as failures,
+    case when count(*) != 0
+      then 'true' else 'false' end as should_warn,
+    case when count(*) != 0
+      then 'true' else 'false' end as should_error
+  from (
+    select * from 
+    [student10].[testview_1aa2a4772ffb56c97de3e2dd8f18a029_4081]
+  
+  ) dbt_internal_test;
+
+  EXEC('drop view 
+    [student10].[testview_1aa2a4772ffb56c97de3e2dd8f18a029_4081]
+  ;')
+[0m09:54:58.642781 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m09:54:58.642990 [debug] [Thread-1 (]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=desql.database.windows.net,1433;Database=de_etl_db;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;UID={student10};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.10.0;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m09:54:58.643198 [debug] [Thread-1 (]: sqlserver adapter: Connected to db: de_etl_db
+[0m09:54:58.708986 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m09:54:58.712670 [debug] [Thread-1 (]: On test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1: ROLLBACK
+[0m09:54:58.712967 [debug] [Thread-1 (]: On test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1: Close
+[0m09:54:58.713387 [info ] [Thread-1 (]: 1 of 2 PASS not_null_dbt_setup_connection_test_id .............................. [[32mPASS[0m in 0.10s]
+[0m09:54:58.713795 [debug] [Thread-1 (]: Finished running node test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1
+[0m09:54:58.714155 [debug] [Thread-1 (]: Began running node test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c
+[0m09:54:58.714471 [info ] [Thread-1 (]: 2 of 2 START test unique_dbt_setup_connection_test_id .......................... [RUN]
+[0m09:54:58.714770 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1, now test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c)
+[0m09:54:58.715019 [debug] [Thread-1 (]: Began compiling node test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c
+[0m09:54:58.720268 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c"
+[0m09:54:58.720925 [debug] [Thread-1 (]: Began executing node test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c
+[0m09:54:58.722816 [debug] [Thread-1 (]: Writing runtime sql for node "test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c"
+[0m09:54:58.723407 [debug] [Thread-1 (]: Using sqlserver connection "test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c"
+[0m09:54:58.723682 [debug] [Thread-1 (]: On test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "week7_sqlserver", "target_name": "dev", "node_id": "test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c"} */
+
+    
+    -- Create target schema if it does not
+  USE [de_etl_db];
+  IF NOT EXISTS (SELECT * FROM sys.schemas WHERE name = 'student10')
+  BEGIN
+    EXEC('CREATE SCHEMA [student10]')
+  END
+
+  
+
+  
+  EXEC('create view 
+    [student10].[testview_84c61aba5bb74533a28bfdfe083e4f12_11546]
+   as 
+    
+    
+    
+
+select
+    id as unique_field,
+    count(*) as n_records
+
+from "de_etl_db"."student10"."dbt_setup_connection_test"
+where id is not null
+group by id
+having count(*) > 1
+
+
+
+  ;')
+  select
+    
+    count(*) as failures,
+    case when count(*) != 0
+      then 'true' else 'false' end as should_warn,
+    case when count(*) != 0
+      then 'true' else 'false' end as should_error
+  from (
+    select * from 
+    [student10].[testview_84c61aba5bb74533a28bfdfe083e4f12_11546]
+  
+  ) dbt_internal_test;
+
+  EXEC('drop view 
+    [student10].[testview_84c61aba5bb74533a28bfdfe083e4f12_11546]
+  ;')
+[0m09:54:58.723900 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m09:54:58.724107 [debug] [Thread-1 (]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=desql.database.windows.net,1433;Database=de_etl_db;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;UID={student10};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.10.0;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m09:54:58.724331 [debug] [Thread-1 (]: sqlserver adapter: Connected to db: de_etl_db
+[0m09:54:58.794859 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m09:54:58.796175 [debug] [Thread-1 (]: On test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c: ROLLBACK
+[0m09:54:58.796490 [debug] [Thread-1 (]: On test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c: Close
+[0m09:54:58.796926 [info ] [Thread-1 (]: 2 of 2 PASS unique_dbt_setup_connection_test_id ................................ [[32mPASS[0m in 0.08s]
+[0m09:54:58.797447 [debug] [Thread-1 (]: Finished running node test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c
+[0m09:54:58.798362 [debug] [MainThread]: On master: COMMIT
+[0m09:54:58.798702 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m09:54:58.798918 [debug] [MainThread]: Connection 'test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c' was properly closed.
+[0m09:54:58.799140 [info ] [MainThread]: 
+[0m09:54:58.799370 [info ] [MainThread]: Finished running 2 data tests in 0 hours 0 minutes and 1.00 seconds (1.00s).
+[0m09:54:58.799883 [debug] [MainThread]: Command end result
+[0m09:54:58.817671 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/manifest.json
+[0m09:54:58.818779 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/semantic_manifest.json
+[0m09:54:58.822100 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/run_results.json
+[0m09:54:58.822271 [info ] [MainThread]: 
+[0m09:54:58.822461 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m09:54:58.822611 [info ] [MainThread]: 
+[0m09:54:58.822775 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m09:54:58.824586 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": true, "command_wall_clock_time": 1.3300632, "process_in_blocks": "0", "process_kernel_time": 0.149359, "process_mem_max_rss": "160464896", "process_out_blocks": "0", "process_user_time": 1.3372}
+[0m09:54:58.824806 [debug] [MainThread]: Command `dbt test` succeeded at 09:54:58.824764 after 1.33 seconds
+[0m09:54:58.824984 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109ee2c90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1092a2ab0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1092a23f0>]}
+[0m09:54:58.825152 [debug] [MainThread]: Flushing usage events
+[0m09:54:59.249411 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:19:12.740937 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114e97260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11645a810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11645a4b0>]}
+
+
+============================== 10:19:12.743403 | 275b2c6e-5a45-4d5a-8ff1-a4bc75b5b6ed ==============================
+[0m10:19:12.743403 [info ] [MainThread]: Running with dbt=1.11.11
+[0m10:19:12.743670 [debug] [MainThread]: running dbt with arguments {'log_path': '/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/logs', 'log_format': 'default', 'introspect': 'True', 'write_json': 'True', 'partial_parse': 'True', 'debug': 'False', 'static_parser': 'True', 'warn_error': 'None', 'profiles_dir': '/Users/seb_el_famoso/.dbt', 'target_path': 'None', 'send_anonymous_usage_stats': 'True', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_cache_events': 'False', 'quiet': 'False', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'use_colors': 'True', 'empty': 'None', 'printer_width': '80', 'fail_fast': 'False', 'version_check': 'True', 'cache_selected_only': 'False'}
+[0m10:19:12.752271 [info ] [MainThread]: dbt version: 1.11.11
+[0m10:19:12.752470 [info ] [MainThread]: python version: 3.12.10
+[0m10:19:12.752591 [info ] [MainThread]: python path: /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/bin/python
+[0m10:19:12.752698 [info ] [MainThread]: os info: macOS-26.5.1-arm64-arm-64bit
+[0m10:19:12.801929 [info ] [MainThread]: Using profiles dir at /Users/seb_el_famoso/.dbt
+[0m10:19:12.802172 [info ] [MainThread]: Using profiles.yml file at /Users/seb_el_famoso/.dbt/profiles.yml
+[0m10:19:12.802298 [info ] [MainThread]: Using dbt_project.yml file at /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/dbt_project.yml
+[0m10:19:12.802411 [info ] [MainThread]: adapter type: sqlserver
+[0m10:19:12.802517 [info ] [MainThread]: adapter version: 1.10.0
+[0m10:19:12.841010 [info ] [MainThread]: Configuration:
+[0m10:19:12.841269 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m10:19:12.841410 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m10:19:12.841524 [info ] [MainThread]: Required dependencies:
+[0m10:19:12.841711 [debug] [MainThread]: Executing "git --help"
+[0m10:19:12.857738 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m10:19:12.858146 [debug] [MainThread]: STDERR: "b''"
+[0m10:19:12.858284 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m10:19:12.858428 [info ] [MainThread]: Connection:
+[0m10:19:12.858585 [info ] [MainThread]:   server: desql.database.windows.net
+[0m10:19:12.858696 [info ] [MainThread]:   port: 1433
+[0m10:19:12.858799 [info ] [MainThread]:   database: de_etl_db
+[0m10:19:12.858899 [info ] [MainThread]:   schema: student10
+[0m10:19:12.859001 [info ] [MainThread]:   UID: student10
+[0m10:19:12.859103 [info ] [MainThread]:   authentication: sql
+[0m10:19:12.859205 [info ] [MainThread]:   retries: 3
+[0m10:19:12.859304 [info ] [MainThread]:   login_timeout: 0
+[0m10:19:12.859404 [info ] [MainThread]:   query_timeout: 0
+[0m10:19:12.859505 [info ] [MainThread]:   trace_flag: False
+[0m10:19:12.859603 [info ] [MainThread]:   encrypt: True
+[0m10:19:12.859704 [info ] [MainThread]:   trust_cert: False
+[0m10:19:12.859967 [info ] [MainThread]: Registered adapter: sqlserver=1.10.0
+[0m10:19:12.907054 [warn ] [MainThread]: [[33mWARNING[0m]: When True, uses SQL Server-native string type mappings: STRING -> VARCHAR(MAX), NCHAR -> NCHAR(1), NVARCHAR -> NVARCHAR(4000). When False (default), preserves legacy mappings: STRING and NVARCHAR -> VARCHAR(8000), NCHAR -> CHAR(1). The new behaviour is intended to become the default in a future release.
+You may opt into the new behavior sooner by setting `flags.dbt_sqlserver_use_native_string_types` to `True` in `dbt_project.yml`.
+Visit https://docs.getdbt.com/reference/global-configs/behavior-changes for more information.
+[0m10:19:12.907424 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'BehaviorChangeEvent', 'label': '275b2c6e-5a45-4d5a-8ff1-a4bc75b5b6ed', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x116b03860>]}
+[0m10:19:12.907707 [debug] [MainThread]: Acquiring new sqlserver connection 'debug'
+[0m10:19:12.907863 [debug] [MainThread]: Using sqlserver connection "debug"
+[0m10:19:12.907960 [debug] [MainThread]: On debug: select 1 as id
+[0m10:19:12.908053 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:19:12.908176 [debug] [MainThread]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=desql.database.windows.net,1433;Database=de_etl_db;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;UID={student10};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.10.0;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m10:19:13.665548 [debug] [MainThread]: sqlserver adapter: Connected to db: de_etl_db
+[0m10:19:13.717904 [debug] [MainThread]: SQL status: OK in 1.000 seconds
+[0m10:19:13.721007 [debug] [MainThread]: On debug: Close
+[0m10:19:13.721761 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m10:19:13.722368 [info ] [MainThread]: [32mAll checks passed![0m
+[0m10:19:13.727519 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 1.0196599, "process_in_blocks": "0", "process_kernel_time": 0.187569, "process_mem_max_rss": "151207936", "process_out_blocks": "0", "process_user_time": 1.128239}
+[0m10:19:13.728271 [debug] [MainThread]: Command `dbt debug` succeeded at 10:19:13.728138 after 1.02 seconds
+[0m10:19:13.728725 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m10:19:13.729140 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x116b03860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x116a725a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11645a630>]}
+[0m10:19:13.729604 [debug] [MainThread]: Flushing usage events
+[0m10:19:14.224952 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:19:49.628705 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1165a7620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x117053140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x117052de0>]}
+
+
+============================== 10:19:49.631069 | 7c5976ae-ee0b-4b1c-8ebd-cede105411a2 ==============================
+[0m10:19:49.631069 [info ] [MainThread]: Running with dbt=1.11.11
+[0m10:19:49.631322 [debug] [MainThread]: running dbt with arguments {'cache_selected_only': 'False', 'log_path': '/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/logs', 'target_path': 'None', 'printer_width': '80', 'invocation_command': 'dbt parse', 'indirect_selection': 'eager', 'debug': 'False', 'introspect': 'True', 'profiles_dir': '/Users/seb_el_famoso/.dbt', 'empty': 'None', 'log_format': 'default', 'log_cache_events': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'fail_fast': 'False', 'static_parser': 'True', 'use_experimental_parser': 'False', 'write_json': 'True', 'partial_parse': 'True', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'use_colors': 'True'}
+[0m10:19:49.729721 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7c5976ae-ee0b-4b1c-8ebd-cede105411a2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113d9d040>]}
+[0m10:19:49.751057 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '7c5976ae-ee0b-4b1c-8ebd-cede105411a2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1169d1970>]}
+[0m10:19:49.751333 [info ] [MainThread]: Registered adapter: sqlserver=1.10.0
+[0m10:19:49.802027 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m10:19:49.861730 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m10:19:49.861902 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m10:19:49.862007 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m10:19:49.864248 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.dbt_weather.silver
+- models.dbt_weather.gold
+- models.dbt_weather.bronze
+[0m10:19:49.877111 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '7c5976ae-ee0b-4b1c-8ebd-cede105411a2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x117650050>]}
+[0m10:19:49.878964 [info ] [MainThread]: Performance info: /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/perf_info.json
+[0m10:19:49.942135 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/manifest.json
+[0m10:19:49.943318 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/semantic_manifest.json
+[0m10:19:49.945344 [debug] [MainThread]: Resource report: {"command_name": "parse", "command_success": true, "command_wall_clock_time": 0.3451458, "process_in_blocks": "0", "process_kernel_time": 0.162543, "process_mem_max_rss": "149307392", "process_out_blocks": "0", "process_user_time": 1.196998}
+[0m10:19:49.945553 [debug] [MainThread]: Command `dbt parse` succeeded at 10:19:49.945516 after 0.35 seconds
+[0m10:19:49.945700 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1179d7b90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1179d7e00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1179d7920>]}
+[0m10:19:49.945833 [debug] [MainThread]: Flushing usage events
+[0m10:19:50.379197 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:19:59.698937 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1059a5be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1071c8ec0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1071c8b30>]}
+
+
+============================== 10:19:59.700817 | c480f9cc-94a8-4177-801b-9f4b34e3ecdc ==============================
+[0m10:19:59.700817 [info ] [MainThread]: Running with dbt=1.11.11
+[0m10:19:59.701088 [debug] [MainThread]: running dbt with arguments {'profiles_dir': '/Users/seb_el_famoso/.dbt', 'use_experimental_parser': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'version_check': 'True', 'log_path': '/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/logs', 'use_colors': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'log_cache_events': 'False', 'invocation_command': 'dbt run --select tag:setup_check', 'log_format': 'default', 'introspect': 'True', 'empty': 'False', 'target_path': 'None', 'static_parser': 'True', 'warn_error': 'None', 'no_print': 'None', 'debug': 'False', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'quiet': 'False', 'cache_selected_only': 'False'}
+[0m10:19:59.780648 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c480f9cc-94a8-4177-801b-9f4b34e3ecdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103afffb0>]}
+[0m10:19:59.801680 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c480f9cc-94a8-4177-801b-9f4b34e3ecdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107528b00>]}
+[0m10:19:59.801955 [info ] [MainThread]: Registered adapter: sqlserver=1.10.0
+[0m10:19:59.848360 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m10:19:59.891074 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m10:19:59.891258 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m10:19:59.891372 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m10:19:59.893656 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.dbt_weather.gold
+- models.dbt_weather.bronze
+- models.dbt_weather.silver
+[0m10:19:59.907028 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c480f9cc-94a8-4177-801b-9f4b34e3ecdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1077194c0>]}
+[0m10:19:59.967050 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/manifest.json
+[0m10:19:59.967965 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/semantic_manifest.json
+[0m10:19:59.973156 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c480f9cc-94a8-4177-801b-9f4b34e3ecdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107a4ffb0>]}
+[0m10:19:59.973353 [info ] [MainThread]: Found 1 model, 2 data tests, 522 macros
+[0m10:19:59.973493 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c480f9cc-94a8-4177-801b-9f4b34e3ecdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10771a660>]}
+[0m10:19:59.974122 [info ] [MainThread]: 
+[0m10:19:59.974251 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:19:59.974356 [info ] [MainThread]: 
+[0m10:19:59.974544 [debug] [MainThread]: Acquiring new sqlserver connection 'master'
+[0m10:19:59.974929 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_de_etl_db'
+[0m10:19:59.984364 [debug] [ThreadPool]: dbt-sqlserver
+[0m10:19:59.984771 [debug] [ThreadPool]: Using sqlserver connection "list_de_etl_db"
+[0m10:19:59.984897 [debug] [ThreadPool]: On list_de_etl_db: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "week7_sqlserver", "target_name": "dev", "connection_name": "list_de_etl_db"} */
+USE [de_etl_db];
+    select  name as [schema]
+    from sys.schemas with (nolock) 
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m10:19:59.984999 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:19:59.985120 [debug] [ThreadPool]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=desql.database.windows.net,1433;Database=de_etl_db;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;UID={student10};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.10.0;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m10:20:00.627901 [debug] [ThreadPool]: sqlserver adapter: Connected to db: de_etl_db
+[0m10:20:00.684057 [debug] [ThreadPool]: SQL status: OK in 1.000 seconds
+[0m10:20:00.687204 [debug] [ThreadPool]: On list_de_etl_db: Close
+[0m10:20:00.688828 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_de_etl_db, now list_de_etl_db_student10)
+[0m10:20:00.697348 [debug] [ThreadPool]: dbt-sqlserver
+[0m10:20:00.697833 [debug] [ThreadPool]: Using sqlserver connection "list_de_etl_db_student10"
+[0m10:20:00.698125 [debug] [ThreadPool]: On list_de_etl_db_student10: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "week7_sqlserver", "target_name": "dev", "connection_name": "list_de_etl_db_student10"} */
+USE [de_etl_db];
+    declare @schema_id int = schema_id('student10');
+    select
+      DB_NAME() as [database],
+      t.name as [name],
+      'student10' as [schema],
+      'table' as table_type
+    from sys.tables as t with (nolock)
+    where t.schema_id = @schema_id
+    union all
+    select
+      DB_NAME() as [database],
+      v.name as [name],
+      'student10' as [schema],
+      'view' as table_type
+    from sys.views as v with (nolock)
+    where v.schema_id = @schema_id
+    
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m10:20:00.698386 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:20:00.698685 [debug] [ThreadPool]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=desql.database.windows.net,1433;Database=de_etl_db;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;UID={student10};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.10.0;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m10:20:00.698987 [debug] [ThreadPool]: sqlserver adapter: Connected to db: de_etl_db
+[0m10:20:00.750942 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m10:20:00.753316 [debug] [ThreadPool]: On list_de_etl_db_student10: ROLLBACK
+[0m10:20:00.753727 [debug] [ThreadPool]: On list_de_etl_db_student10: Close
+[0m10:20:00.754626 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c480f9cc-94a8-4177-801b-9f4b34e3ecdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103a99bb0>]}
+[0m10:20:00.755194 [debug] [MainThread]: On master: COMMIT
+[0m10:20:00.759239 [debug] [Thread-1 (]: Began running node model.dbt_weather.dbt_setup_connection_test
+[0m10:20:00.759842 [info ] [Thread-1 (]: 1 of 1 START sql view model student10.dbt_setup_connection_test ................ [RUN]
+[0m10:20:00.760302 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_de_etl_db_student10, now model.dbt_weather.dbt_setup_connection_test)
+[0m10:20:00.760686 [debug] [Thread-1 (]: Began compiling node model.dbt_weather.dbt_setup_connection_test
+[0m10:20:00.769185 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_weather.dbt_setup_connection_test"
+[0m10:20:00.770145 [debug] [Thread-1 (]: Began executing node model.dbt_weather.dbt_setup_connection_test
+[0m10:20:00.800178 [debug] [Thread-1 (]: Using sqlserver connection "model.dbt_weather.dbt_setup_connection_test"
+[0m10:20:00.800488 [debug] [Thread-1 (]: On model.dbt_weather.dbt_setup_connection_test: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "week7_sqlserver", "target_name": "dev", "node_id": "model.dbt_weather.dbt_setup_connection_test"} */
+
+    USE [de_etl_db];
+  select object_definition(object_id(quotename('student10') + '.' + quotename('dbt_setup_connection_test'), 'V')) as definition
+  where object_id(quotename('student10') + '.' + quotename('dbt_setup_connection_test'), 'V') is not null
+
+  
+[0m10:20:00.800693 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m10:20:00.800899 [debug] [Thread-1 (]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=desql.database.windows.net,1433;Database=de_etl_db;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;UID={student10};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.10.0;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m10:20:00.801219 [debug] [Thread-1 (]: sqlserver adapter: Connected to db: de_etl_db
+[0m10:20:00.853407 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:20:00.858605 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_weather.dbt_setup_connection_test"
+[0m10:20:00.859295 [debug] [Thread-1 (]: Using sqlserver connection "model.dbt_weather.dbt_setup_connection_test"
+[0m10:20:00.859587 [debug] [Thread-1 (]: On model.dbt_weather.dbt_setup_connection_test: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "week7_sqlserver", "target_name": "dev", "node_id": "model.dbt_weather.dbt_setup_connection_test"} */
+declare @dbt_sqlserver_noop int;
+[0m10:20:00.911405 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:20:00.929341 [debug] [Thread-1 (]: On model.dbt_weather.dbt_setup_connection_test: COMMIT
+[0m10:20:00.933514 [debug] [Thread-1 (]: Applying DROP to: "de_etl_db"."student10"."dbt_setup_connection_test__dbt_backup"
+[0m10:20:00.938500 [debug] [Thread-1 (]: dbt-sqlserver
+[0m10:20:00.938889 [debug] [Thread-1 (]: Using sqlserver connection "model.dbt_weather.dbt_setup_connection_test"
+[0m10:20:00.939237 [debug] [Thread-1 (]: On model.dbt_weather.dbt_setup_connection_test: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "week7_sqlserver", "target_name": "dev", "node_id": "model.dbt_weather.dbt_setup_connection_test"} */
+
+        USE [de_etl_db];
+        select
+            sch.name as schema_name,
+            obj.name as view_name
+        from sys.sql_expression_dependencies refs
+        inner join sys.objects obj
+        on refs.referencing_id = obj.object_id
+        inner join sys.schemas sch
+        on obj.schema_id = sch.schema_id
+        where refs.referenced_database_name = 'de_etl_db'
+        and refs.referenced_schema_name = 'student10'
+        and refs.referenced_entity_name = 'dbt_setup_connection_test__dbt_backup'
+        and obj.type = 'V'
+        
+    OPTION (LABEL = 'dbt-sqlserver');
+
+      
+[0m10:20:00.989113 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:20:00.990499 [debug] [Thread-1 (]: Using sqlserver connection "model.dbt_weather.dbt_setup_connection_test"
+[0m10:20:00.990816 [debug] [Thread-1 (]: On model.dbt_weather.dbt_setup_connection_test: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "week7_sqlserver", "target_name": "dev", "node_id": "model.dbt_weather.dbt_setup_connection_test"} */
+
+      
+      
+    
+    USE [de_etl_db];
+    EXEC('DROP view IF EXISTS "student10"."dbt_setup_connection_test__dbt_backup";');
+
+[0m10:20:01.050861 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:20:01.054625 [debug] [Thread-1 (]: On model.dbt_weather.dbt_setup_connection_test: ROLLBACK
+[0m10:20:01.055086 [debug] [Thread-1 (]: On model.dbt_weather.dbt_setup_connection_test: Close
+[0m10:20:01.058168 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c480f9cc-94a8-4177-801b-9f4b34e3ecdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1039ee6c0>]}
+[0m10:20:01.059099 [info ] [Thread-1 (]: 1 of 1 OK created sql view model student10.dbt_setup_connection_test ........... [[32mOK[0m in 0.30s]
+[0m10:20:01.059766 [debug] [Thread-1 (]: Finished running node model.dbt_weather.dbt_setup_connection_test
+[0m10:20:01.061193 [debug] [MainThread]: On master: COMMIT
+[0m10:20:01.061614 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:20:01.061896 [debug] [MainThread]: Connection 'model.dbt_weather.dbt_setup_connection_test' was properly closed.
+[0m10:20:01.062189 [info ] [MainThread]: 
+[0m10:20:01.062496 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 1.09 seconds (1.09s).
+[0m10:20:01.063154 [debug] [MainThread]: Command end result
+[0m10:20:01.088743 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/manifest.json
+[0m10:20:01.089932 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/semantic_manifest.json
+[0m10:20:01.093243 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/run_results.json
+[0m10:20:01.093427 [info ] [MainThread]: 
+[0m10:20:01.093646 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m10:20:01.093811 [info ] [MainThread]: 
+[0m10:20:01.093995 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m10:20:01.096004 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 1.4246932, "process_in_blocks": "0", "process_kernel_time": 0.164979, "process_mem_max_rss": "160137216", "process_out_blocks": "0", "process_user_time": 1.403064}
+[0m10:20:01.096243 [debug] [MainThread]: Command `dbt run` succeeded at 10:20:01.096199 after 1.42 seconds
+[0m10:20:01.096439 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106cbaea0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105ee0590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1077192b0>]}
+[0m10:20:01.096622 [debug] [MainThread]: Flushing usage events
+[0m10:20:01.495529 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:20:09.099630 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105bf07a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105c1a180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105c19e20>]}
+
+
+============================== 10:20:09.101588 | f38917f1-c3b2-4820-9a16-e8af08ad1a44 ==============================
+[0m10:20:09.101588 [info ] [MainThread]: Running with dbt=1.11.11
+[0m10:20:09.101859 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt test --select tag:setup_check', 'log_cache_events': 'False', 'write_json': 'True', 'target_path': 'None', 'introspect': 'True', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_experimental_parser': 'False', 'fail_fast': 'False', 'quiet': 'False', 'indirect_selection': 'eager', 'empty': 'None', 'log_path': '/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/logs', 'no_print': 'None', 'cache_selected_only': 'False', 'printer_width': '80', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'log_format': 'default', 'static_parser': 'True', 'profiles_dir': '/Users/seb_el_famoso/.dbt', 'debug': 'False', 'use_colors': 'True', 'warn_error': 'None'}
+[0m10:20:09.180533 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f38917f1-c3b2-4820-9a16-e8af08ad1a44', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105c6c260>]}
+[0m10:20:09.202042 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'f38917f1-c3b2-4820-9a16-e8af08ad1a44', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105fe0260>]}
+[0m10:20:09.202297 [info ] [MainThread]: Registered adapter: sqlserver=1.10.0
+[0m10:20:09.250426 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m10:20:09.294161 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m10:20:09.294340 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m10:20:09.294448 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m10:20:09.296670 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.dbt_weather.silver
+- models.dbt_weather.gold
+- models.dbt_weather.bronze
+[0m10:20:09.309707 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f38917f1-c3b2-4820-9a16-e8af08ad1a44', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10621f740>]}
+[0m10:20:09.370304 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/manifest.json
+[0m10:20:09.371156 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/semantic_manifest.json
+[0m10:20:09.378477 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f38917f1-c3b2-4820-9a16-e8af08ad1a44', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1063df740>]}
+[0m10:20:09.378661 [info ] [MainThread]: Found 1 model, 2 data tests, 522 macros
+[0m10:20:09.378799 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f38917f1-c3b2-4820-9a16-e8af08ad1a44', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10619e660>]}
+[0m10:20:09.379391 [info ] [MainThread]: 
+[0m10:20:09.379523 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:20:09.379632 [info ] [MainThread]: 
+[0m10:20:09.379821 [debug] [MainThread]: Acquiring new sqlserver connection 'master'
+[0m10:20:09.380154 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_de_etl_db_student10'
+[0m10:20:09.389932 [debug] [ThreadPool]: dbt-sqlserver
+[0m10:20:09.390189 [debug] [ThreadPool]: Using sqlserver connection "list_de_etl_db_student10"
+[0m10:20:09.390314 [debug] [ThreadPool]: On list_de_etl_db_student10: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "week7_sqlserver", "target_name": "dev", "connection_name": "list_de_etl_db_student10"} */
+USE [de_etl_db];
+    declare @schema_id int = schema_id('student10');
+    select
+      DB_NAME() as [database],
+      t.name as [name],
+      'student10' as [schema],
+      'table' as table_type
+    from sys.tables as t with (nolock)
+    where t.schema_id = @schema_id
+    union all
+    select
+      DB_NAME() as [database],
+      v.name as [name],
+      'student10' as [schema],
+      'view' as table_type
+    from sys.views as v with (nolock)
+    where v.schema_id = @schema_id
+    
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m10:20:09.390481 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:20:09.390618 [debug] [ThreadPool]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=desql.database.windows.net,1433;Database=de_etl_db;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;UID={student10};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.10.0;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m10:20:09.965932 [debug] [ThreadPool]: sqlserver adapter: Connected to db: de_etl_db
+[0m10:20:10.020084 [debug] [ThreadPool]: SQL status: OK in 1.000 seconds
+[0m10:20:10.023924 [debug] [ThreadPool]: On list_de_etl_db_student10: ROLLBACK
+[0m10:20:10.024668 [debug] [ThreadPool]: On list_de_etl_db_student10: Close
+[0m10:20:10.026173 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f38917f1-c3b2-4820-9a16-e8af08ad1a44', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10615b650>]}
+[0m10:20:10.026755 [debug] [MainThread]: On master: COMMIT
+[0m10:20:10.028986 [debug] [Thread-1 (]: Began running node test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1
+[0m10:20:10.029505 [info ] [Thread-1 (]: 1 of 2 START test not_null_dbt_setup_connection_test_id ........................ [RUN]
+[0m10:20:10.029940 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_de_etl_db_student10, now test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1)
+[0m10:20:10.030259 [debug] [Thread-1 (]: Began compiling node test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1
+[0m10:20:10.044105 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1"
+[0m10:20:10.044733 [debug] [Thread-1 (]: Began executing node test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1
+[0m10:20:10.057297 [debug] [Thread-1 (]: Writing runtime sql for node "test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1"
+[0m10:20:10.057768 [debug] [Thread-1 (]: Using sqlserver connection "test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1"
+[0m10:20:10.057988 [debug] [Thread-1 (]: On test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "week7_sqlserver", "target_name": "dev", "node_id": "test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1"} */
+
+    
+    -- Create target schema if it does not
+  USE [de_etl_db];
+  IF NOT EXISTS (SELECT * FROM sys.schemas WHERE name = 'student10')
+  BEGIN
+    EXEC('CREATE SCHEMA [student10]')
+  END
+
+  
+
+  
+  EXEC('create view 
+    [student10].[testview_1aa2a4772ffb56c97de3e2dd8f18a029_12618]
+   as 
+    
+    
+    
+
+
+
+select id
+from "de_etl_db"."student10"."dbt_setup_connection_test"
+where id is null
+
+
+
+  ;')
+  select
+    
+    count(*) as failures,
+    case when count(*) != 0
+      then 'true' else 'false' end as should_warn,
+    case when count(*) != 0
+      then 'true' else 'false' end as should_error
+  from (
+    select * from 
+    [student10].[testview_1aa2a4772ffb56c97de3e2dd8f18a029_12618]
+  
+  ) dbt_internal_test;
+
+  EXEC('drop view 
+    [student10].[testview_1aa2a4772ffb56c97de3e2dd8f18a029_12618]
+  ;')
+[0m10:20:10.058188 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m10:20:10.058385 [debug] [Thread-1 (]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=desql.database.windows.net,1433;Database=de_etl_db;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;UID={student10};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.10.0;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m10:20:10.058603 [debug] [Thread-1 (]: sqlserver adapter: Connected to db: de_etl_db
+[0m10:20:10.133085 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:20:10.137593 [debug] [Thread-1 (]: On test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1: ROLLBACK
+[0m10:20:10.137979 [debug] [Thread-1 (]: On test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1: Close
+[0m10:20:10.138481 [info ] [Thread-1 (]: 1 of 2 PASS not_null_dbt_setup_connection_test_id .............................. [[32mPASS[0m in 0.11s]
+[0m10:20:10.138973 [debug] [Thread-1 (]: Finished running node test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1
+[0m10:20:10.139304 [debug] [Thread-1 (]: Began running node test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c
+[0m10:20:10.139625 [info ] [Thread-1 (]: 2 of 2 START test unique_dbt_setup_connection_test_id .......................... [RUN]
+[0m10:20:10.139946 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1, now test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c)
+[0m10:20:10.140196 [debug] [Thread-1 (]: Began compiling node test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c
+[0m10:20:10.145046 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c"
+[0m10:20:10.145613 [debug] [Thread-1 (]: Began executing node test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c
+[0m10:20:10.147298 [debug] [Thread-1 (]: Writing runtime sql for node "test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c"
+[0m10:20:10.147719 [debug] [Thread-1 (]: Using sqlserver connection "test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c"
+[0m10:20:10.147975 [debug] [Thread-1 (]: On test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "week7_sqlserver", "target_name": "dev", "node_id": "test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c"} */
+
+    
+    -- Create target schema if it does not
+  USE [de_etl_db];
+  IF NOT EXISTS (SELECT * FROM sys.schemas WHERE name = 'student10')
+  BEGIN
+    EXEC('CREATE SCHEMA [student10]')
+  END
+
+  
+
+  
+  EXEC('create view 
+    [student10].[testview_84c61aba5bb74533a28bfdfe083e4f12_17308]
+   as 
+    
+    
+    
+
+select
+    id as unique_field,
+    count(*) as n_records
+
+from "de_etl_db"."student10"."dbt_setup_connection_test"
+where id is not null
+group by id
+having count(*) > 1
+
+
+
+  ;')
+  select
+    
+    count(*) as failures,
+    case when count(*) != 0
+      then 'true' else 'false' end as should_warn,
+    case when count(*) != 0
+      then 'true' else 'false' end as should_error
+  from (
+    select * from 
+    [student10].[testview_84c61aba5bb74533a28bfdfe083e4f12_17308]
+  
+  ) dbt_internal_test;
+
+  EXEC('drop view 
+    [student10].[testview_84c61aba5bb74533a28bfdfe083e4f12_17308]
+  ;')
+[0m10:20:10.148220 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m10:20:10.148451 [debug] [Thread-1 (]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=desql.database.windows.net,1433;Database=de_etl_db;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;UID={student10};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.10.0;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m10:20:10.148694 [debug] [Thread-1 (]: sqlserver adapter: Connected to db: de_etl_db
+[0m10:20:10.216990 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:20:10.219261 [debug] [Thread-1 (]: On test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c: ROLLBACK
+[0m10:20:10.219677 [debug] [Thread-1 (]: On test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c: Close
+[0m10:20:10.220439 [info ] [Thread-1 (]: 2 of 2 PASS unique_dbt_setup_connection_test_id ................................ [[32mPASS[0m in 0.08s]
+[0m10:20:10.221207 [debug] [Thread-1 (]: Finished running node test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c
+[0m10:20:10.222446 [debug] [MainThread]: On master: COMMIT
+[0m10:20:10.222798 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:20:10.223036 [debug] [MainThread]: Connection 'test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c' was properly closed.
+[0m10:20:10.223301 [info ] [MainThread]: 
+[0m10:20:10.223581 [info ] [MainThread]: Finished running 2 data tests in 0 hours 0 minutes and 0.84 seconds (0.84s).
+[0m10:20:10.224241 [debug] [MainThread]: Command end result
+[0m10:20:10.245376 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/manifest.json
+[0m10:20:10.246566 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/semantic_manifest.json
+[0m10:20:10.250133 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/run_results.json
+[0m10:20:10.250326 [info ] [MainThread]: 
+[0m10:20:10.250526 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m10:20:10.250690 [info ] [MainThread]: 
+[0m10:20:10.250865 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m10:20:10.252831 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": true, "command_wall_clock_time": 1.1811323, "process_in_blocks": "0", "process_kernel_time": 0.148801, "process_mem_max_rss": "160432128", "process_out_blocks": "0", "process_user_time": 1.342306}
+[0m10:20:10.253096 [debug] [MainThread]: Command `dbt test` succeeded at 10:20:10.253047 after 1.18 seconds
+[0m10:20:10.253290 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105c1a060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10300f710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e35e50>]}
+[0m10:20:10.253480 [debug] [MainThread]: Flushing usage events
+[0m10:20:10.649596 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:52:30.938745 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x115a92ea0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1170ee5d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x117159d00>]}
+
+
+============================== 10:52:30.941025 | ad57efec-1048-4327-ab4c-da637f9234c3 ==============================
+[0m10:52:30.941025 [info ] [MainThread]: Running with dbt=1.11.11
+[0m10:52:30.941306 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'log_cache_events': 'False', 'empty': 'None', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'profiles_dir': '/Users/seb_el_famoso/.dbt', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'use_experimental_parser': 'False', 'log_path': '/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'use_colors': 'True', 'quiet': 'False', 'indirect_selection': 'eager', 'cache_selected_only': 'False', 'no_print': 'None', 'warn_error': 'None', 'partial_parse': 'True', 'printer_width': '80', 'write_json': 'True', 'debug': 'False', 'fail_fast': 'False'}
+[0m10:52:30.949516 [info ] [MainThread]: dbt version: 1.11.11
+[0m10:52:30.949696 [info ] [MainThread]: python version: 3.12.10
+[0m10:52:30.949824 [info ] [MainThread]: python path: /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/.venv/bin/python
+[0m10:52:30.949940 [info ] [MainThread]: os info: macOS-26.5.1-arm64-arm-64bit
+[0m10:52:30.996779 [info ] [MainThread]: Using profiles dir at /Users/seb_el_famoso/.dbt
+[0m10:52:30.996997 [info ] [MainThread]: Using profiles.yml file at /Users/seb_el_famoso/.dbt/profiles.yml
+[0m10:52:30.997120 [info ] [MainThread]: Using dbt_project.yml file at /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/dbt_project.yml
+[0m10:52:30.997231 [info ] [MainThread]: adapter type: sqlserver
+[0m10:52:30.997338 [info ] [MainThread]: adapter version: 1.10.0
+[0m10:52:31.036127 [info ] [MainThread]: Configuration:
+[0m10:52:31.036388 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m10:52:31.036519 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m10:52:31.036630 [info ] [MainThread]: Required dependencies:
+[0m10:52:31.036792 [debug] [MainThread]: Executing "git --help"
+[0m10:52:31.050273 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m10:52:31.050711 [debug] [MainThread]: STDERR: "b''"
+[0m10:52:31.050854 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m10:52:31.050996 [info ] [MainThread]: Connection:
+[0m10:52:31.051156 [info ] [MainThread]:   server: desql.database.windows.net
+[0m10:52:31.051272 [info ] [MainThread]:   port: 1433
+[0m10:52:31.051376 [info ] [MainThread]:   database: de_etl_db
+[0m10:52:31.051482 [info ] [MainThread]:   schema: student10
+[0m10:52:31.051582 [info ] [MainThread]:   UID: student10
+[0m10:52:31.051691 [info ] [MainThread]:   authentication: sql
+[0m10:52:31.051797 [info ] [MainThread]:   retries: 3
+[0m10:52:31.051914 [info ] [MainThread]:   login_timeout: 0
+[0m10:52:31.052015 [info ] [MainThread]:   query_timeout: 0
+[0m10:52:31.052129 [info ] [MainThread]:   trace_flag: False
+[0m10:52:31.052232 [info ] [MainThread]:   encrypt: True
+[0m10:52:31.052354 [info ] [MainThread]:   trust_cert: False
+[0m10:52:31.052866 [info ] [MainThread]: Registered adapter: sqlserver=1.10.0
+[0m10:52:31.100175 [warn ] [MainThread]: [[33mWARNING[0m]: When True, uses SQL Server-native string type mappings: STRING -> VARCHAR(MAX), NCHAR -> NCHAR(1), NVARCHAR -> NVARCHAR(4000). When False (default), preserves legacy mappings: STRING and NVARCHAR -> VARCHAR(8000), NCHAR -> CHAR(1). The new behaviour is intended to become the default in a future release.
+You may opt into the new behavior sooner by setting `flags.dbt_sqlserver_use_native_string_types` to `True` in `dbt_project.yml`.
+Visit https://docs.getdbt.com/reference/global-configs/behavior-changes for more information.
+[0m10:52:31.100531 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'BehaviorChangeEvent', 'label': 'ad57efec-1048-4327-ab4c-da637f9234c3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1176e2240>]}
+[0m10:52:31.100804 [debug] [MainThread]: Acquiring new sqlserver connection 'debug'
+[0m10:52:31.100955 [debug] [MainThread]: Using sqlserver connection "debug"
+[0m10:52:31.101050 [debug] [MainThread]: On debug: select 1 as id
+[0m10:52:31.101144 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:52:31.101265 [debug] [MainThread]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=desql.database.windows.net,1433;Database=de_etl_db;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;UID={student10};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.10.0;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m10:52:31.880399 [debug] [MainThread]: sqlserver adapter: Connected to db: de_etl_db
+[0m10:52:31.929170 [debug] [MainThread]: SQL status: OK in 1.000 seconds
+[0m10:52:31.932038 [debug] [MainThread]: On debug: Close
+[0m10:52:31.932775 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m10:52:31.933119 [info ] [MainThread]: [32mAll checks passed![0m
+[0m10:52:31.938908 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 1.0291312, "process_in_blocks": "0", "process_kernel_time": 0.17378, "process_mem_max_rss": "151879680", "process_out_blocks": "0", "process_user_time": 1.127984}
+[0m10:52:31.939766 [debug] [MainThread]: Command `dbt debug` succeeded at 10:52:31.939577 after 1.03 seconds
+[0m10:52:31.940223 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m10:52:31.940588 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x117159fa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1176044a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1170ee5a0>]}
+[0m10:52:31.940958 [debug] [MainThread]: Flushing usage events
+[0m10:52:32.447500 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:52:40.800319 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1098fff80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a01a540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a01a1b0>]}
+
+
+============================== 10:52:40.802335 | a2efd23a-78c3-4567-a379-6ef6cd2dab50 ==============================
+[0m10:52:40.802335 [info ] [MainThread]: Running with dbt=1.11.11
+[0m10:52:40.802623 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'fail_fast': 'False', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'indirect_selection': 'eager', 'invocation_command': 'dbt run --select tag:setup_check', 'printer_width': '80', 'log_format': 'default', 'send_anonymous_usage_stats': 'True', 'profiles_dir': '/Users/seb_el_famoso/.dbt', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'empty': 'False', 'no_print': 'None', 'use_colors': 'True', 'partial_parse': 'True', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'warn_error': 'None', 'log_path': '/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/logs', 'static_parser': 'True', 'quiet': 'False'}
+[0m10:52:40.892178 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a2efd23a-78c3-4567-a379-6ef6cd2dab50', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a43c350>]}
+[0m10:52:40.913804 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a2efd23a-78c3-4567-a379-6ef6cd2dab50', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a4141d0>]}
+[0m10:52:40.914091 [info ] [MainThread]: Registered adapter: sqlserver=1.10.0
+[0m10:52:40.962876 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m10:52:41.023159 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m10:52:41.023342 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m10:52:41.023448 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m10:52:41.025726 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.dbt_weather.bronze
+- models.dbt_weather.silver
+- models.dbt_weather.gold
+[0m10:52:41.038830 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a2efd23a-78c3-4567-a379-6ef6cd2dab50', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a5f2750>]}
+[0m10:52:41.100177 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/manifest.json
+[0m10:52:41.101343 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/semantic_manifest.json
+[0m10:52:41.106045 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a2efd23a-78c3-4567-a379-6ef6cd2dab50', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a897440>]}
+[0m10:52:41.106238 [info ] [MainThread]: Found 1 model, 2 data tests, 522 macros
+[0m10:52:41.106379 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a2efd23a-78c3-4567-a379-6ef6cd2dab50', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a7d9f40>]}
+[0m10:52:41.107035 [info ] [MainThread]: 
+[0m10:52:41.107166 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:52:41.107272 [info ] [MainThread]: 
+[0m10:52:41.107461 [debug] [MainThread]: Acquiring new sqlserver connection 'master'
+[0m10:52:41.107853 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_de_etl_db'
+[0m10:52:41.117330 [debug] [ThreadPool]: dbt-sqlserver
+[0m10:52:41.117554 [debug] [ThreadPool]: Using sqlserver connection "list_de_etl_db"
+[0m10:52:41.117665 [debug] [ThreadPool]: On list_de_etl_db: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "week7_sqlserver", "target_name": "dev", "connection_name": "list_de_etl_db"} */
+USE [de_etl_db];
+    select  name as [schema]
+    from sys.schemas with (nolock) 
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m10:52:41.117765 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:52:41.117883 [debug] [ThreadPool]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=desql.database.windows.net,1433;Database=de_etl_db;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;UID={student10};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.10.0;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m10:52:41.708226 [debug] [ThreadPool]: sqlserver adapter: Connected to db: de_etl_db
+[0m10:52:41.758766 [debug] [ThreadPool]: SQL status: OK in 1.000 seconds
+[0m10:52:41.760340 [debug] [ThreadPool]: On list_de_etl_db: Close
+[0m10:52:41.761417 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_de_etl_db, now list_de_etl_db_student10)
+[0m10:52:41.766562 [debug] [ThreadPool]: dbt-sqlserver
+[0m10:52:41.766877 [debug] [ThreadPool]: Using sqlserver connection "list_de_etl_db_student10"
+[0m10:52:41.767103 [debug] [ThreadPool]: On list_de_etl_db_student10: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "week7_sqlserver", "target_name": "dev", "connection_name": "list_de_etl_db_student10"} */
+USE [de_etl_db];
+    declare @schema_id int = schema_id('student10');
+    select
+      DB_NAME() as [database],
+      t.name as [name],
+      'student10' as [schema],
+      'table' as table_type
+    from sys.tables as t with (nolock)
+    where t.schema_id = @schema_id
+    union all
+    select
+      DB_NAME() as [database],
+      v.name as [name],
+      'student10' as [schema],
+      'view' as table_type
+    from sys.views as v with (nolock)
+    where v.schema_id = @schema_id
+    
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m10:52:41.767311 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:52:41.767527 [debug] [ThreadPool]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=desql.database.windows.net,1433;Database=de_etl_db;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;UID={student10};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.10.0;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m10:52:41.767772 [debug] [ThreadPool]: sqlserver adapter: Connected to db: de_etl_db
+[0m10:52:41.818902 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m10:52:41.819926 [debug] [ThreadPool]: On list_de_etl_db_student10: ROLLBACK
+[0m10:52:41.820161 [debug] [ThreadPool]: On list_de_etl_db_student10: Close
+[0m10:52:41.820751 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a2efd23a-78c3-4567-a379-6ef6cd2dab50', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a7d9b20>]}
+[0m10:52:41.821138 [debug] [MainThread]: On master: COMMIT
+[0m10:52:41.824131 [debug] [Thread-1 (]: Began running node model.dbt_weather.dbt_setup_connection_test
+[0m10:52:41.824507 [info ] [Thread-1 (]: 1 of 1 START sql view model student10.dbt_setup_connection_test ................ [RUN]
+[0m10:52:41.824812 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_de_etl_db_student10, now model.dbt_weather.dbt_setup_connection_test)
+[0m10:52:41.825042 [debug] [Thread-1 (]: Began compiling node model.dbt_weather.dbt_setup_connection_test
+[0m10:52:41.829971 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_weather.dbt_setup_connection_test"
+[0m10:52:41.830436 [debug] [Thread-1 (]: Began executing node model.dbt_weather.dbt_setup_connection_test
+[0m10:52:41.852999 [debug] [Thread-1 (]: Using sqlserver connection "model.dbt_weather.dbt_setup_connection_test"
+[0m10:52:41.853254 [debug] [Thread-1 (]: On model.dbt_weather.dbt_setup_connection_test: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "week7_sqlserver", "target_name": "dev", "node_id": "model.dbt_weather.dbt_setup_connection_test"} */
+
+    USE [de_etl_db];
+  select object_definition(object_id(quotename('student10') + '.' + quotename('dbt_setup_connection_test'), 'V')) as definition
+  where object_id(quotename('student10') + '.' + quotename('dbt_setup_connection_test'), 'V') is not null
+
+  
+[0m10:52:41.853421 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m10:52:41.853595 [debug] [Thread-1 (]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=desql.database.windows.net,1433;Database=de_etl_db;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;UID={student10};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.10.0;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m10:52:41.853782 [debug] [Thread-1 (]: sqlserver adapter: Connected to db: de_etl_db
+[0m10:52:41.905750 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:52:41.909747 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_weather.dbt_setup_connection_test"
+[0m10:52:41.910326 [debug] [Thread-1 (]: Using sqlserver connection "model.dbt_weather.dbt_setup_connection_test"
+[0m10:52:41.910561 [debug] [Thread-1 (]: On model.dbt_weather.dbt_setup_connection_test: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "week7_sqlserver", "target_name": "dev", "node_id": "model.dbt_weather.dbt_setup_connection_test"} */
+declare @dbt_sqlserver_noop int;
+[0m10:52:41.961629 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:52:41.974911 [debug] [Thread-1 (]: On model.dbt_weather.dbt_setup_connection_test: COMMIT
+[0m10:52:41.978521 [debug] [Thread-1 (]: Applying DROP to: "de_etl_db"."student10"."dbt_setup_connection_test__dbt_backup"
+[0m10:52:41.983037 [debug] [Thread-1 (]: dbt-sqlserver
+[0m10:52:41.983387 [debug] [Thread-1 (]: Using sqlserver connection "model.dbt_weather.dbt_setup_connection_test"
+[0m10:52:41.983674 [debug] [Thread-1 (]: On model.dbt_weather.dbt_setup_connection_test: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "week7_sqlserver", "target_name": "dev", "node_id": "model.dbt_weather.dbt_setup_connection_test"} */
+
+        USE [de_etl_db];
+        select
+            sch.name as schema_name,
+            obj.name as view_name
+        from sys.sql_expression_dependencies refs
+        inner join sys.objects obj
+        on refs.referencing_id = obj.object_id
+        inner join sys.schemas sch
+        on obj.schema_id = sch.schema_id
+        where refs.referenced_database_name = 'de_etl_db'
+        and refs.referenced_schema_name = 'student10'
+        and refs.referenced_entity_name = 'dbt_setup_connection_test__dbt_backup'
+        and obj.type = 'V'
+        
+    OPTION (LABEL = 'dbt-sqlserver');
+
+      
+[0m10:52:42.032410 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:52:42.033560 [debug] [Thread-1 (]: Using sqlserver connection "model.dbt_weather.dbt_setup_connection_test"
+[0m10:52:42.033827 [debug] [Thread-1 (]: On model.dbt_weather.dbt_setup_connection_test: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "week7_sqlserver", "target_name": "dev", "node_id": "model.dbt_weather.dbt_setup_connection_test"} */
+
+      
+      
+    
+    USE [de_etl_db];
+    EXEC('DROP view IF EXISTS "student10"."dbt_setup_connection_test__dbt_backup";');
+
+[0m10:52:42.091490 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:52:42.095123 [debug] [Thread-1 (]: On model.dbt_weather.dbt_setup_connection_test: ROLLBACK
+[0m10:52:42.095604 [debug] [Thread-1 (]: On model.dbt_weather.dbt_setup_connection_test: Close
+[0m10:52:42.098238 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a2efd23a-78c3-4567-a379-6ef6cd2dab50', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10740fa70>]}
+[0m10:52:42.099101 [info ] [Thread-1 (]: 1 of 1 OK created sql view model student10.dbt_setup_connection_test ........... [[32mOK[0m in 0.27s]
+[0m10:52:42.099674 [debug] [Thread-1 (]: Finished running node model.dbt_weather.dbt_setup_connection_test
+[0m10:52:42.101044 [debug] [MainThread]: On master: COMMIT
+[0m10:52:42.101442 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:52:42.101727 [debug] [MainThread]: Connection 'model.dbt_weather.dbt_setup_connection_test' was properly closed.
+[0m10:52:42.102070 [info ] [MainThread]: 
+[0m10:52:42.102462 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 0.99 seconds (0.99s).
+[0m10:52:42.103133 [debug] [MainThread]: Command end result
+[0m10:52:42.125170 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/manifest.json
+[0m10:52:42.126399 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/semantic_manifest.json
+[0m10:52:42.129755 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/run_results.json
+[0m10:52:42.129938 [info ] [MainThread]: 
+[0m10:52:42.130149 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m10:52:42.130309 [info ] [MainThread]: 
+[0m10:52:42.130479 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m10:52:42.132420 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 1.3597344, "process_in_blocks": "0", "process_kernel_time": 0.152205, "process_mem_max_rss": "159498240", "process_out_blocks": "0", "process_user_time": 1.371048}
+[0m10:52:42.132663 [debug] [MainThread]: Command `dbt run` succeeded at 10:52:42.132615 after 1.36 seconds
+[0m10:52:42.132855 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1075fa330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109ff3e60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a9ffe30>]}
+[0m10:52:42.133040 [debug] [MainThread]: Flushing usage events
+[0m10:52:42.538902 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:52:48.468451 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b304fe0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b3aeb10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b3ae780>]}
+
+
+============================== 10:52:48.470582 | a3f6d11e-7745-402f-845a-aff7a2da8cff ==============================
+[0m10:52:48.470582 [info ] [MainThread]: Running with dbt=1.11.11
+[0m10:52:48.470857 [debug] [MainThread]: running dbt with arguments {'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_colors': 'True', 'quiet': 'False', 'log_path': '/Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/logs', 'fail_fast': 'False', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'debug': 'False', 'log_cache_events': 'False', 'invocation_command': 'dbt test --select tag:setup_check', 'introspect': 'True', 'printer_width': '80', 'log_format': 'default', 'no_print': 'None', 'target_path': 'None', 'static_parser': 'True', 'version_check': 'True', 'profiles_dir': '/Users/seb_el_famoso/.dbt', 'cache_selected_only': 'False', 'warn_error': 'None', 'empty': 'None', 'partial_parse': 'True', 'write_json': 'True', 'use_experimental_parser': 'False'}
+[0m10:52:48.552822 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a3f6d11e-7745-402f-845a-aff7a2da8cff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b3051f0>]}
+[0m10:52:48.574716 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a3f6d11e-7745-402f-845a-aff7a2da8cff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b7ba5d0>]}
+[0m10:52:48.574988 [info ] [MainThread]: Registered adapter: sqlserver=1.10.0
+[0m10:52:48.622639 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m10:52:48.666734 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m10:52:48.666905 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m10:52:48.667012 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m10:52:48.669305 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.dbt_weather.silver
+- models.dbt_weather.bronze
+- models.dbt_weather.gold
+[0m10:52:48.682356 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a3f6d11e-7745-402f-845a-aff7a2da8cff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bb53710>]}
+[0m10:52:48.743393 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/manifest.json
+[0m10:52:48.744251 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/semantic_manifest.json
+[0m10:52:48.751591 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a3f6d11e-7745-402f-845a-aff7a2da8cff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b3ad670>]}
+[0m10:52:48.751773 [info ] [MainThread]: Found 1 model, 2 data tests, 522 macros
+[0m10:52:48.751913 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a3f6d11e-7745-402f-845a-aff7a2da8cff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bcb6990>]}
+[0m10:52:48.752598 [info ] [MainThread]: 
+[0m10:52:48.752761 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:52:48.752878 [info ] [MainThread]: 
+[0m10:52:48.753075 [debug] [MainThread]: Acquiring new sqlserver connection 'master'
+[0m10:52:48.753415 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_de_etl_db_student10'
+[0m10:52:48.763315 [debug] [ThreadPool]: dbt-sqlserver
+[0m10:52:48.763541 [debug] [ThreadPool]: Using sqlserver connection "list_de_etl_db_student10"
+[0m10:52:48.763666 [debug] [ThreadPool]: On list_de_etl_db_student10: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "week7_sqlserver", "target_name": "dev", "connection_name": "list_de_etl_db_student10"} */
+USE [de_etl_db];
+    declare @schema_id int = schema_id('student10');
+    select
+      DB_NAME() as [database],
+      t.name as [name],
+      'student10' as [schema],
+      'table' as table_type
+    from sys.tables as t with (nolock)
+    where t.schema_id = @schema_id
+    union all
+    select
+      DB_NAME() as [database],
+      v.name as [name],
+      'student10' as [schema],
+      'view' as table_type
+    from sys.views as v with (nolock)
+    where v.schema_id = @schema_id
+    
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m10:52:48.763784 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:52:48.763924 [debug] [ThreadPool]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=desql.database.windows.net,1433;Database=de_etl_db;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;UID={student10};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.10.0;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m10:52:49.403198 [debug] [ThreadPool]: sqlserver adapter: Connected to db: de_etl_db
+[0m10:52:49.457648 [debug] [ThreadPool]: SQL status: OK in 1.000 seconds
+[0m10:52:49.460521 [debug] [ThreadPool]: On list_de_etl_db_student10: ROLLBACK
+[0m10:52:49.461089 [debug] [ThreadPool]: On list_de_etl_db_student10: Close
+[0m10:52:49.462237 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a3f6d11e-7745-402f-845a-aff7a2da8cff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bb25130>]}
+[0m10:52:49.463131 [debug] [MainThread]: On master: COMMIT
+[0m10:52:49.466473 [debug] [Thread-1 (]: Began running node test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1
+[0m10:52:49.466973 [info ] [Thread-1 (]: 1 of 2 START test not_null_dbt_setup_connection_test_id ........................ [RUN]
+[0m10:52:49.467462 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_de_etl_db_student10, now test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1)
+[0m10:52:49.467804 [debug] [Thread-1 (]: Began compiling node test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1
+[0m10:52:49.484093 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1"
+[0m10:52:49.485076 [debug] [Thread-1 (]: Began executing node test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1
+[0m10:52:49.499820 [debug] [Thread-1 (]: Writing runtime sql for node "test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1"
+[0m10:52:49.500437 [debug] [Thread-1 (]: Using sqlserver connection "test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1"
+[0m10:52:49.500700 [debug] [Thread-1 (]: On test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "week7_sqlserver", "target_name": "dev", "node_id": "test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1"} */
+
+    
+    -- Create target schema if it does not
+  USE [de_etl_db];
+  IF NOT EXISTS (SELECT * FROM sys.schemas WHERE name = 'student10')
+  BEGIN
+    EXEC('CREATE SCHEMA [student10]')
+  END
+
+  
+
+  
+  EXEC('create view 
+    [student10].[testview_1aa2a4772ffb56c97de3e2dd8f18a029_3291]
+   as 
+    
+    
+    
+
+
+
+select id
+from "de_etl_db"."student10"."dbt_setup_connection_test"
+where id is null
+
+
+
+  ;')
+  select
+    
+    count(*) as failures,
+    case when count(*) != 0
+      then 'true' else 'false' end as should_warn,
+    case when count(*) != 0
+      then 'true' else 'false' end as should_error
+  from (
+    select * from 
+    [student10].[testview_1aa2a4772ffb56c97de3e2dd8f18a029_3291]
+  
+  ) dbt_internal_test;
+
+  EXEC('drop view 
+    [student10].[testview_1aa2a4772ffb56c97de3e2dd8f18a029_3291]
+  ;')
+[0m10:52:49.500910 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m10:52:49.501107 [debug] [Thread-1 (]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=desql.database.windows.net,1433;Database=de_etl_db;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;UID={student10};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.10.0;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m10:52:49.501315 [debug] [Thread-1 (]: sqlserver adapter: Connected to db: de_etl_db
+[0m10:52:49.563131 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:52:49.566588 [debug] [Thread-1 (]: On test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1: ROLLBACK
+[0m10:52:49.566899 [debug] [Thread-1 (]: On test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1: Close
+[0m10:52:49.567329 [info ] [Thread-1 (]: 1 of 2 PASS not_null_dbt_setup_connection_test_id .............................. [[32mPASS[0m in 0.10s]
+[0m10:52:49.567707 [debug] [Thread-1 (]: Finished running node test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1
+[0m10:52:49.567964 [debug] [Thread-1 (]: Began running node test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c
+[0m10:52:49.568273 [info ] [Thread-1 (]: 2 of 2 START test unique_dbt_setup_connection_test_id .......................... [RUN]
+[0m10:52:49.568634 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.dbt_weather.not_null_dbt_setup_connection_test_id.eee77ea5b1, now test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c)
+[0m10:52:49.568899 [debug] [Thread-1 (]: Began compiling node test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c
+[0m10:52:49.573607 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c"
+[0m10:52:49.574090 [debug] [Thread-1 (]: Began executing node test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c
+[0m10:52:49.575616 [debug] [Thread-1 (]: Writing runtime sql for node "test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c"
+[0m10:52:49.575989 [debug] [Thread-1 (]: Using sqlserver connection "test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c"
+[0m10:52:49.576235 [debug] [Thread-1 (]: On test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "week7_sqlserver", "target_name": "dev", "node_id": "test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c"} */
+
+    
+    -- Create target schema if it does not
+  USE [de_etl_db];
+  IF NOT EXISTS (SELECT * FROM sys.schemas WHERE name = 'student10')
+  BEGIN
+    EXEC('CREATE SCHEMA [student10]')
+  END
+
+  
+
+  
+  EXEC('create view 
+    [student10].[testview_84c61aba5bb74533a28bfdfe083e4f12_8238]
+   as 
+    
+    
+    
+
+select
+    id as unique_field,
+    count(*) as n_records
+
+from "de_etl_db"."student10"."dbt_setup_connection_test"
+where id is not null
+group by id
+having count(*) > 1
+
+
+
+  ;')
+  select
+    
+    count(*) as failures,
+    case when count(*) != 0
+      then 'true' else 'false' end as should_warn,
+    case when count(*) != 0
+      then 'true' else 'false' end as should_error
+  from (
+    select * from 
+    [student10].[testview_84c61aba5bb74533a28bfdfe083e4f12_8238]
+  
+  ) dbt_internal_test;
+
+  EXEC('drop view 
+    [student10].[testview_84c61aba5bb74533a28bfdfe083e4f12_8238]
+  ;')
+[0m10:52:49.576452 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m10:52:49.576655 [debug] [Thread-1 (]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=desql.database.windows.net,1433;Database=de_etl_db;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;UID={student10};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.10.0;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m10:52:49.576872 [debug] [Thread-1 (]: sqlserver adapter: Connected to db: de_etl_db
+[0m10:52:49.642648 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:52:49.643916 [debug] [Thread-1 (]: On test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c: ROLLBACK
+[0m10:52:49.644248 [debug] [Thread-1 (]: On test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c: Close
+[0m10:52:49.644728 [info ] [Thread-1 (]: 2 of 2 PASS unique_dbt_setup_connection_test_id ................................ [[32mPASS[0m in 0.08s]
+[0m10:52:49.645150 [debug] [Thread-1 (]: Finished running node test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c
+[0m10:52:49.645930 [debug] [MainThread]: On master: COMMIT
+[0m10:52:49.646188 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:52:49.646378 [debug] [MainThread]: Connection 'test.dbt_weather.unique_dbt_setup_connection_test_id.c97fad2d4c' was properly closed.
+[0m10:52:49.646588 [info ] [MainThread]: 
+[0m10:52:49.646806 [info ] [MainThread]: Finished running 2 data tests in 0 hours 0 minutes and 0.89 seconds (0.89s).
+[0m10:52:49.647331 [debug] [MainThread]: Command end result
+[0m10:52:49.666851 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/manifest.json
+[0m10:52:49.667891 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/semantic_manifest.json
+[0m10:52:49.671410 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/seb_el_famoso/Documents/Brights/Week 7 - ETL/week7_etl_starter/dbt_weather/target/run_results.json
+[0m10:52:49.671584 [info ] [MainThread]: 
+[0m10:52:49.671769 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m10:52:49.671913 [info ] [MainThread]: 
+[0m10:52:49.672076 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m10:52:49.673836 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": true, "command_wall_clock_time": 1.23501, "process_in_blocks": "0", "process_kernel_time": 0.161914, "process_mem_max_rss": "160907264", "process_out_blocks": "0", "process_user_time": 1.362377}
+[0m10:52:49.674057 [debug] [MainThread]: Command `dbt test` succeeded at 10:52:49.674015 after 1.24 seconds
+[0m10:52:49.674232 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1099bc080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108133980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b3ae510>]}
+[0m10:52:49.674405 [debug] [MainThread]: Flushing usage events
+[0m10:52:50.071978 [debug] [MainThread]: An error was encountered while trying to flush usage events

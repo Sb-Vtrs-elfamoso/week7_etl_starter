@@ -1,0 +1,5 @@
+,table_name,row_count
+0,bronze_weather_api_raw,187
+1,silver_weather_daily_clean,178
+2,rejected_weather_rows,9
+3,weather_validation_summary,8

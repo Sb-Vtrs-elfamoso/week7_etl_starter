@@ -1,0 +1,11 @@
+normalized_email,source_row_count,source_systems,max_completeness_score,newest_source_updated_at
+anna.virtanen@example.com,3,"['crm', 'webshop']",8,2024-05-20
+erik.svensson@example.com,2,"['crm', 'webshop']",8,2024-05-16
+john.smith@example.com,2,"['crm', 'webshop']",9,2024-05-22
+laura.nieminen@example.com,2,"['crm', 'webshop']",9,2024-05-15
+liisa.laine@example.com,2,"['crm', 'webshop']",9,2024-05-17
+maria.garcia@example.com,1,['webshop'],9,2024-05-21
+matti.korhonen@example.com,2,"['crm', 'webshop']",9,2024-05-18
+nina.berg@example.com,2,"['crm', 'webshop']",9,2024-05-20
+peter.hansen@example.com,2,"['crm', 'webshop']",9,2024-05-19
+sofia.rossi@example.com,2,"['crm', 'webshop']",9,2024-05-23

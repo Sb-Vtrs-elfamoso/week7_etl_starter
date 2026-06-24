@@ -1,0 +1,2 @@
+candidate_row_count,missing_email_row_count,missing_email_phone_both_systems_review_row_count,unknown_country_code_review_row_count,valid_candidate_row_count,matched_customer_count,customers_in_both_crm_and_webshop_count,conflict_row_count,golden_customer_row_count
+22,2,0,0,20,10,9,4,10

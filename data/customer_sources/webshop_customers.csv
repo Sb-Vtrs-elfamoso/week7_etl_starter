@@ -1,0 +1,12 @@
+webshop_customer_id,full_name,email,mobile_phone,address,city,country_code,marketing_consent,last_order_date,updated_at
+W1001,Anna Virtanen,ANNA.VIRTANEN@example.com,,Keskuskatu 1 A,Helsinki,FI,true,2024-05-20,2024-05-20
+W1002,Matti Korhonen,matti.korhonen@example.com,+358402222222,Kauppakatu 5,Tampere,FI,false,2024-05-18,2024-05-18
+W1003,Laura K. Nieminen,laura.nieminen@example.com,+358403333333,Aurakatu 9,Turku,FI,true,2024-05-15,2024-05-15
+W1004,John Smith,john.smith@example.com,+447700900999,11 High Street,London,GB,true,2024-05-22,2024-05-22
+W1005,Maria Garcia,maria.garcia@example.com,+34911222333,Calle Mayor 1,Madrid,ES,true,2024-05-21,2024-05-21
+W1006,Erik Svensson,erik.svensson@example.com,,Drottninggatan 10,Stockholm,SE,false,2024-05-16,2024-05-16
+W1007,Peter Hansen,peter.hansen@example.com,+4522334455,Nyhavn 2,Copenhagen,DK,true,2024-05-19,2024-05-19
+W1008,Nina Berg,NINA.BERG@example.com,+4798765432,Karl Johans gate 4,Oslo,NO,true,2024-05-20,2024-05-20
+W1009,Liisa Laine,liisa.laine@example.com,+358405555555,Satamakatu 3,Helsinki,FI,true,2024-05-17,2024-05-17
+W1010,NoEmail Customer,,+358409999999,Unknown 2,Espoo,FI,true,2024-05-12,2024-05-12
+W1011,Sofia Rossi,sofia.rossi@example.com,+3906123456,Via Roma 8,Milan,IT,true,2024-05-23,2024-05-23

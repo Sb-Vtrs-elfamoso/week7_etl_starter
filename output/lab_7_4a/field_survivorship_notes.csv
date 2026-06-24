@@ -1,0 +1,10 @@
+golden_column,survivorship_rule,rule_detail
+normalized_email,group key,Use normalized email as the customer match key and golden business identifier.
+source_system,crm-priority survivor row,"Take the source system from the top-ranked survivor row sorted by completeness_score desc, source_priority asc, source_updated_at desc."
+first_name,crm-priority survivor row,"Take first_name from the top-ranked survivor row sorted by completeness_score desc, source_priority asc, source_updated_at desc."
+last_name,crm-priority survivor row,"Take last_name from the top-ranked survivor row sorted by completeness_score desc, source_priority asc, source_updated_at desc."
+phone,crm-priority survivor row,"Take phone from the top-ranked survivor row sorted by completeness_score desc, source_priority asc, source_updated_at desc."
+address,last non-null by update order,"Within each normalized_email group, sort by source_updated_at asc and completeness_score asc, then keep the last non-null address."
+city,last non-null by update order,"Within each normalized_email group, sort by source_updated_at asc and completeness_score asc, then keep the last non-null city."
+country_code,validated last non-null by update order,Unknown country codes are sent to review and nulled out first; then keep the last non-null valid country_code per normalized_email group.
+marketing_consent,last non-null by update order,"Within each normalized_email group, sort by source_updated_at asc and completeness_score asc, then keep the last non-null marketing_consent."

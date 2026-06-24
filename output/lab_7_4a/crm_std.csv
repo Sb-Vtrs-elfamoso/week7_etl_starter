@@ -1,0 +1,12 @@
+,source_customer_id,first_name,last_name,normalized_email,phone,address,city,country_code,source_updated_at,marketing_consent,source_system
+0,C001,Anna,Virtanen,anna.virtanen@example.com,+358401111111.0,Keskuskatu 1,Helsinki,FI,2024-05-10,,crm
+1,C002,Matti,Korhonen,matti.korhonen@example.com,,Kauppakatu 5,Tampere,FI,2024-05-08,,crm
+2,C003,Laura,Nieminen,laura.nieminen@example.com,+358403333333.0,,Turku,FI,2024-05-06,,crm
+3,C004,John,Smith,john.smith@example.com,+447700900123.0,10 High Street,London,GB,2024-05-12,,crm
+4,C005,Sofia,Rossi,sofia.rossi@example.com,+3906123456.0,Via Roma 8,Rome,IT,2024-05-01,,crm
+5,C006,Erik,Svensson,erik.svensson@example.com,+46701234567.0,Drottninggatan 10,Stockholm,SE,2024-05-03,,crm
+6,C007,Liisa,Laine,liisa.laine@example.com,,Satamakatu 3,Helsinki,FI,2024-05-02,,crm
+7,C008,Anna,Virtanen,anna.virtanen@example.com,,Keskuskatu 1,Helsinki,FI,2024-04-15,,crm
+8,C009,Peter,Hansen,peter.hansen@example.com,+4522334455.0,Nyhavn 2,Copenhagen,DK,2024-05-07,,crm
+9,C010,Noora,Niemi,,+358401010101.0,Unknown 1,Espoo,FI,2024-05-09,,crm
+10,C011,Nina,Berg,nina.berg@example.com,+4798765432.0,Karl Johans gate 4,Oslo,NO,2024-05-11,,crm

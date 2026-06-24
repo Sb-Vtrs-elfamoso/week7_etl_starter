@@ -1,0 +1,5 @@
+normalized_email,field_name,values_found
+anna.virtanen@example.com,address,Keskuskatu 1 | Keskuskatu 1 A
+john.smith@example.com,phone,+447700900123.0 | +447700900999.0
+john.smith@example.com,address,10 High Street | 11 High Street
+sofia.rossi@example.com,city,Milan | Rome

@@ -1,0 +1,3 @@
+source_system,source_customer_id,email,phone,city,marketing_consent,source_updated_at,normalized_email,completeness_score,source_priority
+crm,C001, Anna@example.com ,+358401111111,Helsinki,,2024-05-10,anna@example.com,4,1
+webshop,W1002,matti@example.com,+358402222222,Tampere,False,2024-05-18,matti@example.com,5,2

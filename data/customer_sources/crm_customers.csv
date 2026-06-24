@@ -1,0 +1,12 @@
+crm_customer_id,first_name,last_name,email,phone,street_address,city,country,birth_date,updated_at
+C001,Anna,Virtanen,anna.virtanen@example.com,+358401111111,Keskuskatu 1,Helsinki,Finland,1988-03-12,2024-05-10
+C002,Matti,Korhonen, matti.korhonen@example.com ,,Kauppakatu 5,Tampere,Finland,1979-11-05,2024-05-08
+C003,Laura,Nieminen,laura.nieminen@example.com,+358403333333,,Turku,Finland,,2024-05-06
+C004,John,Smith,JOHN.SMITH@example.com,+447700900123,10 High Street,London,UK,1990-04-20,2024-05-12
+C005,Sofia,Rossi,sofia.rossi@example.com,+3906123456,Via Roma 8,Rome,Italy,1985-07-22,2024-05-01
+C006,Erik,Svensson,erik.svensson@example.com,+46701234567,Drottninggatan 10,Stockholm,Sweden,1975-01-09,2024-05-03
+C007,Liisa,Laine,liisa.laine@example.com,,Satamakatu 3,Helsinki,Finland,1993-09-10,2024-05-02
+C008,Anna,Virtanen,anna.virtanen@example.com,,Keskuskatu 1,Helsinki,Finland,1988-03-12,2024-04-15
+C009,Peter,Hansen,peter.hansen@example.com,+4522334455,Nyhavn 2,Copenhagen,Denmark,1981-12-01,2024-05-07
+C010,Noora,Niemi,,+358401010101,Unknown 1,Espoo,Finland,1995-05-05,2024-05-09
+C011,Nina,Berg,nina.berg@example.com,+4798765432,Karl Johans gate 4,Oslo,Norway,1987-06-16,2024-05-11

@@ -1,0 +1,11 @@
+customer_business_key,first_name,last_name,email,phone,city,country_code,marketing_consent,completeness_score
+anna.virtanen@example.com,Anna,Virtanen,anna.virtanen@example.com,+358401111111.0,Helsinki,FI,True,7
+erik.svensson@example.com,Erik,Svensson,erik.svensson@example.com,+46701234567.0,Stockholm,SE,False,7
+john.smith@example.com,John,Smith,john.smith@example.com,+447700900999.0,London,GB,True,7
+laura.nieminen@example.com,Laura,K. Nieminen,laura.nieminen@example.com,+358403333333.0,Turku,FI,True,7
+liisa.laine@example.com,Liisa,Laine,liisa.laine@example.com,+358405555555.0,Helsinki,FI,True,7
+maria.garcia@example.com,Maria,Garcia,maria.garcia@example.com,+34911222333.0,Madrid,ES,True,7
+matti.korhonen@example.com,Matti,Korhonen,matti.korhonen@example.com,+358402222222.0,Tampere,FI,False,7
+nina.berg@example.com,Nina,Berg,nina.berg@example.com,+4798765432.0,Oslo,NO,True,7
+peter.hansen@example.com,Peter,Hansen,peter.hansen@example.com,+4522334455.0,Copenhagen,DK,True,7
+sofia.rossi@example.com,Sofia,Rossi,sofia.rossi@example.com,+3906123456.0,Milan,IT,True,7

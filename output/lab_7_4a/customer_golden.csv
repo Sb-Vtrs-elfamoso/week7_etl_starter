@@ -1,0 +1,11 @@
+normalized_email,source_system,first_name,last_name,phone,address,city,country_code,marketing_consent
+anna.virtanen@example.com,crm,Anna,Virtanen,+358401111111.0,Keskuskatu 1 A,Helsinki,FI,True
+erik.svensson@example.com,crm,Erik,Svensson,+46701234567.0,Drottninggatan 10,Stockholm,SE,False
+john.smith@example.com,webshop,John,Smith,+447700900999.0,11 High Street,London,GB,True
+laura.nieminen@example.com,webshop,Laura,K. Nieminen,+358403333333.0,Aurakatu 9,Turku,FI,True
+liisa.laine@example.com,webshop,Liisa,Laine,+358405555555.0,Satamakatu 3,Helsinki,FI,True
+maria.garcia@example.com,webshop,Maria,Garcia,+34911222333.0,Calle Mayor 1,Madrid,ES,True
+matti.korhonen@example.com,webshop,Matti,Korhonen,+358402222222.0,Kauppakatu 5,Tampere,FI,False
+nina.berg@example.com,webshop,Nina,Berg,+4798765432.0,Karl Johans gate 4,Oslo,NO,True
+peter.hansen@example.com,webshop,Peter,Hansen,+4522334455.0,Nyhavn 2,Copenhagen,DK,True
+sofia.rossi@example.com,webshop,Sofia,Rossi,+3906123456.0,Via Roma 8,Milan,IT,True

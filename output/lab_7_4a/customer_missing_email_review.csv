@@ -1,0 +1,3 @@
+source_customer_id,first_name,last_name,normalized_email,phone,address,city,country_code,source_updated_at,marketing_consent,source_system
+C010,Noora,Niemi,,+358401010101.0,Unknown 1,Espoo,FI,2024-05-09,,crm
+W1010,Noemail,Customer,,+358409999999.0,Unknown 2,Espoo,FI,2024-05-12,True,webshop

@@ -1,0 +1,7 @@
+source_system,source_record_id,shipment_ref_clean,zone_clean,region,ship_date_clean,weight_kg_clean,status,updated_at_clean
+carrier,CR501,S-1001,East,Eastern Norway,2026-06-24,13.0,in_transit,2026-06-24 11:00:00
+carrier,CR502,S-1002,West,Western Norway,2026-06-24,8.2,in_transit,2026-06-24 10:00:00
+warehouse,WH003,S-1003,North,Northern Norway,2026-06-25,25.0,shipped,2026-06-25 08:30:00
+warehouse,WH008,S-1007,North,Northern Norway,2026-06-26,18.0,shipped,2026-06-26 09:00:00
+carrier,CR504,S-1014,Central,Central Norway,2026-06-26,21.0,delivered,2026-06-26 08:00:00
+carrier,CR505,S-1015,South,Southern Norway,2026-06-27,9.0,delivered,2026-06-27 09:30:00

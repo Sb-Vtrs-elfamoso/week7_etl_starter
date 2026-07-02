@@ -1,0 +1,10 @@
+source_system,source_record_id,source_priority,shipment_ref,zone_x,ship_date,weight_kg,status,updated_at,shipment_ref_clean,zone_clean,weight_kg_clean,ship_date_clean,updated_at_clean,zone_y,region,review_reason
+warehouse,WH004,2,,South,2026-06-25,5.0,packed,2026-06-25 09:00,,South,5.0,2026-06-25,2026-06-25 09:00:00,South,Southern Norway,MISSING_SHIPMENT_REF
+warehouse,WH005,2,S-1004,Central,2026-06-25,bad,packed,2026-06-25 09:20,S-1004,Central,,2026-06-25,2026-06-25 09:20:00,Central,Central Norway,INVALID_WEIGHT
+warehouse,WH006,2,S-1005,East,bad-date,7.5,packed,2026-06-25 10:00,S-1005,East,7.5,,2026-06-25 10:00:00,East,Eastern Norway,INVALID_SHIP_DATE
+warehouse,WH007,2,S-1006,West,2026-06-25,10.0,packed,bad-date,S-1006,West,10.0,2026-06-25,,West,Western Norway,INVALID_UPDATED_AT
+warehouse,WH009,2,S-1008,Mars,2026-06-26,6.0,packed,2026-06-26 09:10,S-1008,Mars,6.0,2026-06-26,2026-06-26 09:10:00,,,UNKNOWN_ZONE
+carrier,CR506,1,S-1009,South,2026-06-26,,new,2026-06-26 11:00,S-1009,South,,2026-06-26,2026-06-26 11:00:00,South,Southern Norway,INVALID_WEIGHT
+carrier,CR507,1,S-1010,North,,11.0 kg,new,2026-06-26 11:20,S-1010,North,11.0,,2026-06-26 11:20:00,North,Northern Norway,INVALID_SHIP_DATE
+carrier,CR508,1,S-1011,East,2026-06-26,7.0 kg,new,not-a-date,S-1011,East,7.0,2026-06-26,,East,Eastern Norway,INVALID_UPDATED_AT
+carrier,CR509,1,S-1012,Unknown,2026-06-26,4.0 kg,new,2026-06-26 11:40,S-1012,,4.0,2026-06-26,2026-06-26 11:40:00,,,UNKNOWN_ZONE

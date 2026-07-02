@@ -1,0 +1,8 @@
+metric_name,metric_value
+warehouse_source_rows,10
+carrier_source_rows,9
+combined_rows,19
+valid_shipments_rows,10
+review_rows,9
+golden_shipment_rows,6
+unknown_zone_rows,2
